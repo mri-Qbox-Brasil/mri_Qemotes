@@ -4,7 +4,7 @@ game 'gta5'
 name 'mri_Qemotes'
 description 'Menu de emotes da MRI Qbox sobre o rpemotes-reborn'
 author 'MRI Qbox Team'
-version '1.1.0'
+version '1.1.1'
 
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
