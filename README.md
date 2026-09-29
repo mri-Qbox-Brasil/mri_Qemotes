@@ -58,7 +58,7 @@ O pacote publicado já traz a interface compilada em `html/`. O build só é nec
 
 ### Abrir e fechar
 
-`F5` (configurável em Configurações → Teclas → FiveM) ou `/em`. O menu abre encostado à direita da tela.
+`F5` (configurável em Configurações → Teclas → FiveM) ou `/mri_emotes`. O menu abre encostado à direita da tela.
 
 Com o menu aberto o jogador continua andando com WASD. Ficam bloqueados: atirar, mirar, roda de armas, troca de câmera, chat, pausa e as teclas que o menu usa.
 
@@ -126,7 +126,6 @@ Quais emotes aparecem, permissões por categoria e o catálogo em si são config
 | Comando | Permissão | Descrição |
 |---|---|---|
 | `/mri_emotes` | todos | Abre ou fecha o menu. É o comando ligado ao F5 |
-| `/em` | todos | Atalho para `/mri_emotes` |
 
 ---
 

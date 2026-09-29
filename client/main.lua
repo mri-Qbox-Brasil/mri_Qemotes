@@ -229,7 +229,6 @@ local function toggleMenu()
 end
 
 RegisterCommand('mri_emotes', toggleMenu, false)
-RegisterCommand('em', toggleMenu, false)
 RegisterKeyMapping('mri_emotes', locale('keybind_menu'), 'keyboard', 'F5')
 
 RegisterNUICallback('close', function(_, cb)
