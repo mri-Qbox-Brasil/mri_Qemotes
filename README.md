@@ -39,14 +39,14 @@ O recurso não usa banco de dados. Favoritos e recentes ficam no KVP do cliente.
    ensure rpemotes-reborn
    ensure mri_Qemotes
    ```
-3. No `config.lua` do `rpemotes-reborn`, desligue a tecla do menu nativo para não concorrer com o F4:
+3. No `config.lua` do `rpemotes-reborn`, desligue a tecla do menu nativo (F4) para ele não abrir junto:
    ```lua
    MenuKeybindEnabled = false,
    ```
    Os comandos `/e`, `/emotemenu`, `/walk` e `/mood` do rpemotes continuam funcionando.
 4. Aumente o pool de animações do jogo no `server.cfg`. Os ~980 `.ycd` deste recurso, somados aos do rpemotes, passam do limite padrão (21.000, quase todo ocupado pelo GTA), e o jogo fecha na entrada com "AnimStore Pool Full". O comando só vale na subida do servidor:
    ```
-   increase_pool_size "AnimStore" 8192
+   increase_pool_size "AnimStore" 20480
    ```
 5. Se o `scully_emotemenu` ou o `dpemotes` estiverem no `server.cfg`, remova-os. O `mri_Qemotes` atende os exports deles; ver [Substituindo o scully_emotemenu](#substituindo-o-scully_emotemenu).
 
@@ -58,7 +58,7 @@ O pacote publicado já traz a interface compilada em `html/`. O build só é nec
 
 ### Abrir e fechar
 
-`F4` (configurável em Configurações → Teclas → FiveM) ou `/em`. O menu abre encostado à direita da tela.
+`F5` (configurável em Configurações → Teclas → FiveM) ou `/em`. O menu abre encostado à direita da tela.
 
 Com o menu aberto o jogador continua andando com WASD. Ficam bloqueados: atirar, mirar, roda de armas, troca de câmera, chat, pausa e as teclas que o menu usa.
 
@@ -125,7 +125,7 @@ Quais emotes aparecem, permissões por categoria e o catálogo em si são config
 
 | Comando | Permissão | Descrição |
 |---|---|---|
-| `/mriemotes` | todos | Abre ou fecha o menu. É o comando ligado ao F4 |
+| `/mriemotes` | todos | Abre ou fecha o menu. É o comando ligado ao F5 |
 | `/em` | todos | Atalho para `/mriemotes` |
 
 ---

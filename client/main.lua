@@ -230,7 +230,7 @@ end
 
 RegisterCommand('mriemotes', toggleMenu, false)
 RegisterCommand('em', toggleMenu, false)
-RegisterKeyMapping('mriemotes', locale('keybind_menu'), 'keyboard', 'F4')
+RegisterKeyMapping('mriemotes', locale('keybind_menu'), 'keyboard', 'F5')
 
 RegisterNUICallback('close', function(_, cb)
     closeMenu()
