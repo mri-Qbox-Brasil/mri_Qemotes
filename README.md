@@ -39,10 +39,12 @@ O recurso não usa banco de dados. Favoritos e recentes ficam no KVP do cliente.
    ensure rpemotes-reborn
    ensure mri_Qemotes
    ```
-3. No `config.lua` do `rpemotes-reborn`, desligue a tecla do menu nativo (F4) para ele não abrir junto:
+3. No `config.lua` do `rpemotes-reborn`, desligue a tecla do menu nativo (F4) e a de cancelar dele (o `mri_Qemotes` registra o F6):
    ```lua
    MenuKeybindEnabled = false,
+   EnableCancelKeybind = false,
    ```
+   O fork da MRI já vem assim.
    Os comandos `/e`, `/emotemenu`, `/walk` e `/mood` do rpemotes continuam funcionando.
 4. Aumente o pool de animações do jogo no `server.cfg`. Os ~980 `.ycd` deste recurso, somados aos do rpemotes, passam do limite padrão (21.000, quase todo ocupado pelo GTA), e o jogo fecha na entrada com "AnimStore Pool Full". O comando só vale na subida do servidor:
    ```
@@ -126,6 +128,7 @@ Quais emotes aparecem, permissões por categoria e o catálogo em si são config
 | Comando | Permissão | Descrição |
 |---|---|---|
 | `/mri_emotes` | todos | Abre ou fecha o menu. É o comando ligado ao F5 |
+| `/mri_emotescancel` | todos | Para o emote em execução. É o comando ligado ao F6 |
 
 ---
 

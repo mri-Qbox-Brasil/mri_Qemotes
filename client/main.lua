@@ -231,6 +231,9 @@ end
 RegisterCommand('mri_emotes', toggleMenu, false)
 RegisterKeyMapping('mri_emotes', locale('keybind_menu'), 'keyboard', 'F5')
 
+RegisterCommand('mri_emotescancel', function() exports[ENGINE]:EmoteCancel() end, false)
+RegisterKeyMapping('mri_emotescancel', locale('keybind_cancel'), 'keyboard', 'F6')
+
 RegisterNUICallback('close', function(_, cb)
     closeMenu()
     cb(true)

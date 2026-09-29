@@ -1,5 +1,6 @@
 {
   "keybind_menu": "Abrir menu de emotes",
+  "keybind_cancel": "Cancelar emote",
   "catalog_loading": "Os emotes ainda estão carregando, tente de novo em instantes.",
   "unknown_emote": "não é um emote válido.",
   "ui": {
