@@ -1,6 +1,7 @@
 {
   "keybind_menu": "Open emote menu",
   "catalog_loading": "Emotes are still loading, try again in a moment.",
+  "unknown_emote": "is not a valid emote.",
   "ui": {
     "title": "Emotes",
     "search": "Search emote or command…",
@@ -16,6 +17,7 @@
     "Expressions": "Moods",
     "Exits": "Exits",
     "Emojis": "Emojis",
+    "adult": "18+",
     "cancel": "Stop emote",
     "reset_walk": "Default walk",
     "reset_mood": "Default mood",

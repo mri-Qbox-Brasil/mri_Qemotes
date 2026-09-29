@@ -1,0 +1,4324 @@
+{
+  "adjust": {
+    "label": "Ajustar Manga",
+    "alias": "ajustar",
+    "aliases": [
+      "ajustar",
+      "amanga"
+    ]
+  },
+  "adjusttie": {
+    "label": "Ajustar Gola",
+    "alias": "agola"
+  },
+  "Aiming": {
+    "label": "Olhando",
+    "alias": "olhando"
+  },
+  "airforce01": {
+    "label": "Descansar",
+    "alias": "descancar"
+  },
+  "airforce02": {
+    "label": "Descansar 2",
+    "alias": "descansar2"
+  },
+  "airforce03": {
+    "label": "Descansar 3",
+    "alias": "descansar3"
+  },
+  "airforce04": {
+    "label": "Continência (Aviador)"
+  },
+  "airguitar": {
+    "label": "Guitarra Imaginária",
+    "alias": "guitarraimg"
+  },
+  "airplane": {
+    "label": "Naruto Parado",
+    "alias": "narutoparado"
+  },
+  "airportbag": {
+    "label": "Mala de Viagem",
+    "alias": "malaviagem"
+  },
+  "airsynth": {
+    "label": "Tecladista",
+    "alias": "tecladista"
+  },
+  "Alien": {
+    "label": "Alienígena",
+    "alias": "alienigena"
+  },
+  "Angry": {
+    "label": "Nervosa",
+    "alias": "nervosa"
+  },
+  "apple": {
+    "label": "Maçã",
+    "alias": "maca"
+  },
+  "argue": {
+    "label": "Explicar",
+    "alias": "explicar"
+  },
+  "argue2": {
+    "label": "Explicar 2",
+    "alias": "argumentar",
+    "aliases": [
+      "argumentar",
+      "explicar2"
+    ]
+  },
+  "Armored": {
+    "label": "Blindado",
+    "alias": "blindado"
+  },
+  "army1": {
+    "label": "Militar",
+    "alias": "militar"
+  },
+  "army1l": {
+    "label": "Militar 2",
+    "alias": "militar2"
+  },
+  "army1p": {
+    "label": "Militar 3",
+    "alias": "militar3"
+  },
+  "army2": {
+    "label": "Militar 4",
+    "alias": "militar4"
+  },
+  "army2l": {
+    "label": "Militar 5",
+    "alias": "militar5"
+  },
+  "army2p": {
+    "label": "Militar 6",
+    "alias": "militar6"
+  },
+  "Arrogant": {
+    "label": "Arrogante",
+    "alias": "arrogante"
+  },
+  "axe2": {
+    "label": "Machado 1",
+    "alias": "machado1"
+  },
+  "axe4": {
+    "label": "Machado Minerador 1",
+    "alias": "machadom1"
+  },
+  "backpack": {
+    "label": "Mochila",
+    "alias": "mochila"
+  },
+  "bang": {
+    "label": "Bang Bang"
+  },
+  "bark": {
+    "label": "Cachorrinho",
+    "alias": "cachorro",
+    "aliases": [
+      "cachorro",
+      "cachorrinho"
+    ]
+  },
+  "bartender": {
+    "label": "Unhas",
+    "alias": "debrucar2",
+    "aliases": [
+      "debrucar2",
+      "unhas"
+    ]
+  },
+  "baseball": {
+    "label": "Beisebol",
+    "alias": "sbaseball"
+  },
+  "baseballthrow": {
+    "label": "Lançamento de Beisebol",
+    "alias": "lbaseball"
+  },
+  "bball": {
+    "label": "Bola de Basquete",
+    "alias": "bbasquete"
+  },
+  "bball2": {
+    "label": "Bola De Basquete 1",
+    "alias": "bbasquete1"
+  },
+  "bball3": {
+    "label": "Bola de Basquete 3",
+    "alias": "bbasquete3"
+  },
+  "bball4": {
+    "label": "Bola de Basquete 2",
+    "alias": "bbasquete2"
+  },
+  "bbq": {
+    "label": "Caixa Eletrônico 2",
+    "alias": "churrasco",
+    "aliases": [
+      "churrasco",
+      "celetronico2"
+    ]
+  },
+  "bbqf": {
+    "label": "Cozinhar",
+    "alias": "cozinhar"
+  },
+  "bdogbark": {
+    "label": "Latido (Cachorro Grande)",
+    "alias": "lcachorrog"
+  },
+  "bdogbeg": {
+    "label": "Implorar (Cachorro Grande)",
+    "alias": "icachorrog"
+  },
+  "bdogbeg2": {
+    "label": "Implorar 2 (Cachorro Grande)",
+    "alias": "icachorrog2"
+  },
+  "bdogfhump": {
+    "label": "Montar 2 (Cachorro Grande)",
+    "alias": "ccachorrog2"
+  },
+  "bdogglowa": {
+    "label": "Bastão Luminoso (Cachorro Grande)",
+    "alias": "gcachorrog"
+  },
+  "bdogglowb": {
+    "label": "Sentar com Bastão Luminoso (Cachorro Grande)"
+  },
+  "bdogitch": {
+    "label": "Coceira (Cachorro Grande)",
+    "alias": "coceiracg"
+  },
+  "bdoglayleft": {
+    "label": "Deitar (Cachorro Grande)",
+    "alias": "dcachorrog"
+  },
+  "bdoglayright": {
+    "label": "Deitar 2 (Cachorro Grande)",
+    "alias": "dcachorro2"
+  },
+  "bdogmhump": {
+    "label": "Montar (Cachorro Grande)"
+  },
+  "bdogpee": {
+    "label": "Xixi (cachorro)",
+    "alias": "xixic"
+  },
+  "bdogpee2": {
+    "label": "Xixi 2 (Cachorro Grande)",
+    "alias": "xixic2"
+  },
+  "bdogpridea": {
+    "label": "Sentar 2 (Cachorro Grande)",
+    "alias": "scachorrog"
+  },
+  "bdogprideb": {
+    "label": "Sentar - LGBTQIA (Cachorro Grande)",
+    "alias": "scachorrol"
+  },
+  "bdogpridec": {
+    "label": "Sentar - Bissexual (Cachorro Grande)",
+    "alias": "scachorrob"
+  },
+  "bdogprided": {
+    "label": "Sentar - Lésbico (Cachorro Grande)",
+    "alias": "scachorrole"
+  },
+  "bdogpridee": {
+    "label": "Sentar - Pansexual (Cachorro Grande)"
+  },
+  "bdogpridef": {
+    "label": "Sentar - Transgênero (Cachorro Grande)",
+    "alias": "scachorrot"
+  },
+  "bdogprideg": {
+    "label": "Sentar - Não Binário (Cachorro Grande)",
+    "alias": "scachorron"
+  },
+  "bdogprideh": {
+    "label": "Sentar - Assexual (Cachorro Grande)",
+    "alias": "scachorroa"
+  },
+  "bdogpridei": {
+    "label": "Sentar - Aliado (Cachorro Grande)",
+    "alias": "scachorroali"
+  },
+  "bdogshit": {
+    "label": "Cocô (Cachorro Grande)",
+    "alias": "jcachorrog"
+  },
+  "bdogsit": {
+    "label": "Sentar (Cachorro Grande)"
+  },
+  "bdogsitcar": {
+    "label": "Sentar Carro (Cachorro Grande)",
+    "alias": "schgrande"
+  },
+  "bdogsleep": {
+    "label": "Dormir (Cachorro Grande)",
+    "alias": "cdormir"
+  },
+  "beans": {
+    "label": "Feijões",
+    "alias": "feijao"
+  },
+  "beast": {
+    "label": "Fera",
+    "alias": "fera"
+  },
+  "beer": {
+    "label": "Cerveja 2",
+    "alias": "cerveja2"
+  },
+  "beer2": {
+    "label": "Cerveja 3",
+    "alias": "cerveja3"
+  },
+  "beer3": {
+    "label": "Beber",
+    "alias": "beber"
+  },
+  "beerbox": {
+    "label": "Caixa de Cerveja",
+    "alias": "cxcerveja"
+  },
+  "beerbox2": {
+    "label": "Caixa de Cerveja 1",
+    "alias": "cxcerveja1"
+  },
+  "beerbox3": {
+    "label": "Caixa de Cerveja 2",
+    "alias": "cxcerveja2"
+  },
+  "beerbox4": {
+    "label": "Caixa de Cerveja 3",
+    "alias": "cxcerveja3"
+  },
+  "beerf3": {
+    "label": "Cerveja 1",
+    "alias": "cerveja1"
+  },
+  "beg": {
+    "label": "Placa 2",
+    "alias": "placa2"
+  },
+  "beg2": {
+    "label": "Placa 1",
+    "alias": "placa",
+    "aliases": [
+      "placa",
+      "placa1"
+    ]
+  },
+  "beg4": {
+    "label": "Placa 3",
+    "alias": "placa3"
+  },
+  "binoculars": {
+    "label": "Binóculos",
+    "alias": "binoculos"
+  },
+  "binoculars2": {
+    "label": "Binóculos 1",
+    "alias": "binoculos1"
+  },
+  "bird": {
+    "label": "Pássaro",
+    "alias": "passaro"
+  },
+  "blowkiss": {
+    "label": "Beijos",
+    "alias": "beijos"
+  },
+  "blowkiss2": {
+    "label": "Beijo 2",
+    "alias": "beijo",
+    "aliases": [
+      "beijo",
+      "beijo2"
+    ]
+  },
+  "boba": {
+    "label": "Chá",
+    "alias": "cha"
+  },
+  "boba2": {
+    "label": "Chá 2",
+    "alias": "cha2"
+  },
+  "boba3": {
+    "label": "Chá 3",
+    "alias": "cha3"
+  },
+  "boi": {
+    "label": "Olha Ali",
+    "alias": "olhaali"
+  },
+  "bong2": {
+    "label": "Bong 1",
+    "alias": "bong1"
+  },
+  "bongos": {
+    "label": "Bongo Drums"
+  },
+  "book": {
+    "label": "Livro",
+    "alias": "livro"
+  },
+  "bow2": {
+    "label": "Reverência 2",
+    "alias": "reverencia2"
+  },
+  "box": {
+    "label": "Caixa",
+    "alias": "caixa"
+  },
+  "boxdance": {
+    "label": "Dançar 419",
+    "alias": "dancar419"
+  },
+  "boxing2": {
+    "label": "Caixa 2",
+    "alias": "box2"
+  },
+  "Brave": {
+    "label": "Corajoso",
+    "alias": "corajoso"
+  },
+  "Brave2": {
+    "label": "Corajoso 2",
+    "alias": "corajoso2"
+  },
+  "Brave3": {
+    "label": "Corajoso 3",
+    "alias": "corajoso3"
+  },
+  "breakfreefont": {
+    "label": "Desalgemar",
+    "alias": "uncuff"
+  },
+  "brief": {
+    "label": "Maleta",
+    "alias": "maleta"
+  },
+  "brief2": {
+    "label": "Maleta 2",
+    "alias": "maleta2"
+  },
+  "bringiton": {
+    "label": "Pode Vir",
+    "alias": "foto15",
+    "aliases": [
+      "foto15",
+      "podevir"
+    ]
+  },
+  "bro": {
+    "label": "Abraço 3",
+    "alias": "abracar",
+    "aliases": [
+      "abracar",
+      "abraco3",
+      "cumprimentar"
+    ]
+  },
+  "bro2": {
+    "label": "Cumprimentar 2",
+    "alias": "cumprimentar2"
+  },
+  "broom2": {
+    "label": "Varrer 2",
+    "alias": "varrer2"
+  },
+  "broom3": {
+    "label": "Varrer 3",
+    "alias": "varrer3"
+  },
+  "broom4": {
+    "label": "Varrer 4",
+    "alias": "varrer4"
+  },
+  "bumbin": {
+    "label": "Mendigo",
+    "alias": "mendigo"
+  },
+  "burger": {
+    "label": "X Salada",
+    "alias": "xsalada"
+  },
+  "Burning": {
+    "label": "Queimando",
+    "alias": "queimando"
+  },
+  "Butch": {
+    "label": "Machão",
+    "alias": "machao"
+  },
+  "Butch2": {
+    "label": "Machão 2",
+    "alias": "machao2"
+  },
+  "Butch3": {
+    "label": "Machão 3",
+    "alias": "machao3"
+  },
+  "buzz": {
+    "label": "Campainha",
+    "alias": "campainha"
+  },
+  "Buzzed": {
+    "label": "Embriagado",
+    "alias": "embriagado"
+  },
+  "calldog": {
+    "label": "Chamar Cachorro",
+    "alias": "foto13",
+    "aliases": [
+      "foto13",
+      "ccachorro"
+    ]
+  },
+  "calldogl": {
+    "label": "Chamar Cachorro 3",
+    "alias": "ccachorro3"
+  },
+  "calldogr": {
+    "label": "Chamar Cachorro 2",
+    "alias": "ccachorro2"
+  },
+  "camera6": {
+    "label": "Câmera 4 - Carregar News Câmera"
+  },
+  "candy": {
+    "label": "Doce",
+    "alias": "doce"
+  },
+  "candycane": {
+    "label": "Bengala Doce Vermelha",
+    "alias": "bdocev"
+  },
+  "candycaneb": {
+    "label": "Bengala Doce Verde",
+    "alias": "bdoceve"
+  },
+  "candycanec": {
+    "label": "Bengala Doce Roxa",
+    "alias": "bdroxa"
+  },
+  "candycaned": {
+    "label": "Bengala Doce Amarela",
+    "alias": "bdamarela"
+  },
+  "candycanee": {
+    "label": "Bengala Doce Azul",
+    "alias": "bdazul"
+  },
+  "carry": {
+    "label": "Carregar 4",
+    "alias": "carregar4"
+  },
+  "carry2": {
+    "label": "Carregar",
+    "alias": "carregar"
+  },
+  "carry3": {
+    "label": "Carregar 5",
+    "alias": "carregar5"
+  },
+  "carry4": {
+    "label": "Carregar 2",
+    "alias": "carregar2"
+  },
+  "carrycmg": {
+    "label": "Carregar 6",
+    "alias": "carregar6"
+  },
+  "carrycmg2": {
+    "label": "Carregar 3",
+    "alias": "carregar3"
+  },
+  "carryfoodbag": {
+    "label": "Levar Lanche",
+    "alias": "levarlanche"
+  },
+  "carryfoodbag2": {
+    "label": "Levar Lanche 2",
+    "alias": "levarlanche2"
+  },
+  "carryfoodbag3": {
+    "label": "Levar Lanche 3",
+    "alias": "levarlanche3"
+  },
+  "carrymecute": {
+    "label": "Casal 88",
+    "alias": "casal88"
+  },
+  "carrymecute2": {
+    "label": "Casal 87",
+    "alias": "casal87"
+  },
+  "carrypizza": {
+    "label": "Levar Caixa de Pizza",
+    "alias": "levarpizza"
+  },
+  "cashcase": {
+    "label": "Maleta De Dinheiro",
+    "alias": "maletadinheiro"
+  },
+  "cashcase2": {
+    "label": "Maleta De Dinheiro 2",
+    "alias": "maletadinheiro2"
+  },
+  "cashcase3": {
+    "label": "Maleta De Dinheiro 3",
+    "alias": "maletadinheiro3"
+  },
+  "cashcase4": {
+    "label": "Maleta De Diamante",
+    "alias": "maletadiamante"
+  },
+  "cbbox": {
+    "label": "Carregar Caixa de Cerveja"
+  },
+  "cbbox2": {
+    "label": "Carregar Caixa de Cerveja 2"
+  },
+  "cbbox3": {
+    "label": "Carregar Caixa de Cerveja 3"
+  },
+  "cbbox4": {
+    "label": "Caixa De Cerveja 4",
+    "alias": "cxcerveja4"
+  },
+  "cbbox5": {
+    "label": "Caixa De Cerveja 5",
+    "alias": "cxcerveja5"
+  },
+  "cbbox6": {
+    "label": "Caixa De Cerveja 6",
+    "alias": "cxcerveja6"
+  },
+  "cbdog2": {
+    "label": "Carregar Cachorro Grande",
+    "alias": "ccachorrog"
+  },
+  "celebrate": {
+    "label": "Comemorar",
+    "alias": "celebrar",
+    "aliases": [
+      "celebrar",
+      "comemorar"
+    ]
+  },
+  "champagne": {
+    "label": "Champanhe",
+    "alias": "prebeber4",
+    "aliases": [
+      "prebeber4",
+      "champanhe"
+    ]
+  },
+  "champagnespray": {
+    "label": "Sacudir Champanhe",
+    "alias": "schampagne"
+  },
+  "champw": {
+    "label": "Champanhe Bandeja",
+    "alias": "garcom",
+    "aliases": [
+      "garcom",
+      "bchampagne"
+    ]
+  },
+  "champw2": {
+    "label": "Garcom 5",
+    "alias": "garcom5"
+  },
+  "champw3": {
+    "label": "Garcom 6",
+    "alias": "garcom6"
+  },
+  "checkcar": {
+    "label": "Verificar",
+    "alias": "checkout"
+  },
+  "checkcar2": {
+    "label": "Verificar 2",
+    "alias": "checkout2",
+    "aliases": [
+      "checkout2",
+      "verificar2"
+    ]
+  },
+  "checkwatch": {
+    "label": "Ver as Horas",
+    "alias": "verhora"
+  },
+  "chicken": {
+    "label": "Galinha",
+    "alias": "galinha"
+  },
+  "chinup": {
+    "label": "Musculação 3",
+    "alias": "musculacao3"
+  },
+  "Chubbyfemale": {
+    "label": "Feminino Gordinho",
+    "alias": "femininogordinho"
+  },
+  "Chubbymale": {
+    "label": "Masculino Gordinho",
+    "alias": "masculinogordinho"
+  },
+  "cigar": {
+    "label": "Charuto",
+    "alias": "charuto"
+  },
+  "cigar2": {
+    "label": "Charuto 2",
+    "alias": "charuto2"
+  },
+  "clapangry": {
+    "label": "Palmas Irritado"
+  },
+  "clean": {
+    "label": "Limpar",
+    "alias": "pano2"
+  },
+  "clean2": {
+    "label": "Pano",
+    "alias": "pano"
+  },
+  "cleanface": {
+    "label": "Lavar Rosto",
+    "alias": "lrosto"
+  },
+  "cleanhands": {
+    "label": "Lavar mãos",
+    "alias": "washhand",
+    "aliases": [
+      "washhand",
+      "lmaos"
+    ]
+  },
+  "clipboard": {
+    "label": "Prancheta",
+    "alias": "prancheta"
+  },
+  "cloudgaze": {
+    "label": "Olhando as Nuvens",
+    "alias": "deitar6",
+    "aliases": [
+      "deitar6",
+      "olharnuvem"
+    ]
+  },
+  "cloudgaze2": {
+    "label": "Olhando as Nuvens 2",
+    "alias": "deitar7",
+    "aliases": [
+      "deitar7",
+      "olharnuvem2"
+    ]
+  },
+  "clown": {
+    "label": "Palhaço",
+    "alias": "palhaco"
+  },
+  "clown2": {
+    "label": "Palhaço 2",
+    "alias": "palhaco2"
+  },
+  "clown4": {
+    "label": "Palhaço 4",
+    "alias": "palhaco4"
+  },
+  "clown5": {
+    "label": "Palhaço 5",
+    "alias": "palhaco5"
+  },
+  "coffee": {
+    "label": "Cafe 3",
+    "alias": "cafe3"
+  },
+  "comeatmebro": {
+    "label": "Vem Até Mim Mano",
+    "alias": "vemmano"
+  },
+  "conehead": {
+    "label": "Cabeça de Cone",
+    "alias": "ccone"
+  },
+  "Confident": {
+    "label": "Confiante",
+    "alias": "confiante"
+  },
+  "cop": {
+    "label": "Polícia",
+    "alias": "policia"
+  },
+  "cop2": {
+    "label": "Cruzar 2",
+    "alias": "cruzar2"
+  },
+  "Cop2": {
+    "label": "Policial 2",
+    "alias": "policial2"
+  },
+  "cop3": {
+    "label": "Rádio Policial"
+  },
+  "Cop3": {
+    "label": "Policial 3",
+    "alias": "policial3"
+  },
+  "cop4": {
+    "label": "Sinalizar",
+    "alias": "sinalizar"
+  },
+  "copbeacon": {
+    "label": "Sinalizar 2",
+    "alias": "sinalizar2"
+  },
+  "cough": {
+    "label": "Tossir",
+    "alias": "tossir"
+  },
+  "countdown": {
+    "label": "Torcedor",
+    "alias": "torcedor"
+  },
+  "coupleanim": {
+    "label": "Tomar um Bebida Masculino",
+    "alias": "tdrinkm"
+  },
+  "coupleanim2": {
+    "label": "Tomar um Bebida Feminino",
+    "alias": "tdrinkf"
+  },
+  "couplehhands": {
+    "label": "Casal 94",
+    "alias": "casal94"
+  },
+  "couplehhands2": {
+    "label": "Casal 93",
+    "alias": "casal93"
+  },
+  "couplewed1a": {
+    "label": "Casal 40",
+    "alias": "casal40"
+  },
+  "couplewed1b": {
+    "label": "Casal 41",
+    "alias": "casal41"
+  },
+  "couplewed2a": {
+    "label": "Casal 43",
+    "alias": "casal43"
+  },
+  "couplewed2b": {
+    "label": "Casal 42",
+    "alias": "casal42"
+  },
+  "Coward": {
+    "label": "Covarde",
+    "alias": "covarde"
+  },
+  "cpr": {
+    "label": "Reanimar CPR 3",
+    "alias": "rcpr3"
+  },
+  "cpr2": {
+    "label": "Reanimar",
+    "alias": "reanimar"
+  },
+  "cprs": {
+    "label": "Reanimar 2",
+    "alias": "cuidar",
+    "aliases": [
+      "cuidar",
+      "reanimar2"
+    ]
+  },
+  "cprs2": {
+    "label": "Reanimar CPR",
+    "alias": "rcpr"
+  },
+  "cprs3": {
+    "label": "Reanimar CPR 4",
+    "alias": "rcpr4"
+  },
+  "cprs4": {
+    "label": "Reanimar CPR 2",
+    "alias": "rcpr2"
+  },
+  "crackhead": {
+    "label": "Cracudo",
+    "alias": "cracudo"
+  },
+  "crawl": {
+    "label": "Rastejar 2",
+    "alias": "rastejar2"
+  },
+  "crossarms": {
+    "label": "Cruzar2",
+    "alias": "foto164"
+  },
+  "crossarms2": {
+    "label": "Cruzar 3",
+    "alias": "cruzar3",
+    "aliases": [
+      "cruzar3",
+      "foto165"
+    ]
+  },
+  "crossarms3": {
+    "label": "Bracos",
+    "alias": "bracos"
+  },
+  "crossarms4": {
+    "label": "Cruzar",
+    "alias": "cruzar",
+    "aliases": [
+      "cruzar",
+      "cruzar4"
+    ]
+  },
+  "crossarms5": {
+    "label": "Cruzar 8",
+    "alias": "cruzar8"
+  },
+  "crossarms6": {
+    "label": "Cruzar 5",
+    "alias": "cruzar5",
+    "aliases": [
+      "cruzar5",
+      "foto166"
+    ]
+  },
+  "crossarmsside": {
+    "label": "Encostar 18",
+    "alias": "encostar18",
+    "aliases": [
+      "encostar18",
+      "foto167",
+      "pose665"
+    ]
+  },
+  "csdog": {
+    "label": "Carregar Cachorro Pequeno",
+    "alias": "ccgrande"
+  },
+  "cup": {
+    "label": "Copo",
+    "alias": "beber8",
+    "aliases": [
+      "beber8",
+      "copo"
+    ]
+  },
+  "curtsy": {
+    "label": "Reverência 4",
+    "alias": "reverencia",
+    "aliases": [
+      "reverencia",
+      "reverencia4"
+    ]
+  },
+  "cutepicpose": {
+    "label": "Casal 92",
+    "alias": "casal92"
+  },
+  "cutepicpose2": {
+    "label": "Casal 91",
+    "alias": "casal91"
+  },
+  "cutthroat": {
+    "label": "Ameaçar",
+    "alias": "ameacar"
+  },
+  "cutthroat2": {
+    "label": "Ameaçar 2",
+    "alias": "ameacar2"
+  },
+  "damn": {
+    "label": "Que Droga",
+    "alias": "quedroga"
+  },
+  "dance": {
+    "label": "Dançar 243",
+    "alias": "dancar243"
+  },
+  "dance2": {
+    "label": "Dançar 229",
+    "alias": "dancar229",
+    "aliases": [
+      "dancar229",
+      "dancar314"
+    ]
+  },
+  "dance3": {
+    "label": "Dançar 3B",
+    "alias": "dancar242",
+    "aliases": [
+      "dancar242",
+      "dancar286"
+    ]
+  },
+  "dance4": {
+    "label": "Dançar 241",
+    "alias": "dancar241",
+    "aliases": [
+      "dancar241",
+      "dancar315"
+    ]
+  },
+  "dance5": {
+    "label": "Dançar 252",
+    "alias": "dancar252"
+  },
+  "dance6": {
+    "label": "Dançar 3",
+    "alias": "dancar3"
+  },
+  "dance7": {
+    "label": "Dançar 235",
+    "alias": "dancar235"
+  },
+  "dance8": {
+    "label": "Dançar 9",
+    "alias": "dancar9"
+  },
+  "dance9": {
+    "label": "Dançar 230",
+    "alias": "dancar230",
+    "aliases": [
+      "dancar230",
+      "dancar250"
+    ]
+  },
+  "danceclube": {
+    "label": "Dançar 385",
+    "alias": "dancar385",
+    "aliases": [
+      "dancar385",
+      "tiktok8",
+      "cayo1"
+    ]
+  },
+  "danceclubf": {
+    "label": "Cayo 10",
+    "alias": "cayo10"
+  },
+  "danceclubg": {
+    "label": "Cayo 17",
+    "alias": "cayo17"
+  },
+  "danceclubh": {
+    "label": "Dançar 414",
+    "alias": "dancar414"
+  },
+  "danceclubi": {
+    "label": "Dançar 562",
+    "alias": "dancar562"
+  },
+  "dancef": {
+    "label": "Dançar 249",
+    "alias": "dancar249"
+  },
+  "dancef2": {
+    "label": "Dançar 248",
+    "alias": "dancar248"
+  },
+  "dancef3": {
+    "label": "Dançar 247",
+    "alias": "dancar247"
+  },
+  "dancef4": {
+    "label": "Dançar 23",
+    "alias": "dancar23"
+  },
+  "dancef5": {
+    "label": "Dançar 25",
+    "alias": "dancar25"
+  },
+  "dancehiphop": {
+    "label": "Dançar 420",
+    "alias": "dancar420"
+  },
+  "dancehiphop2": {
+    "label": "Dançar 421",
+    "alias": "dancar421"
+  },
+  "dancehiphop3": {
+    "label": "Dançar 422",
+    "alias": "dancar422"
+  },
+  "dancemonkey": {
+    "label": "Dançar 416",
+    "alias": "dancar416"
+  },
+  "dancemonkey2": {
+    "label": "Dançar 417",
+    "alias": "dancar417"
+  },
+  "dancemonkey3": {
+    "label": "Dançar 418",
+    "alias": "dancar418"
+  },
+  "danceshy": {
+    "label": "Dançar 238",
+    "alias": "dancar238"
+  },
+  "danceshy2": {
+    "label": "Dançar 237",
+    "alias": "dancar237"
+  },
+  "dancesilly": {
+    "label": "Dançar 8",
+    "alias": "dancar8"
+  },
+  "dancesilly1": {
+    "label": "Dançar",
+    "alias": "dancar"
+  },
+  "dancesilly2": {
+    "label": "Dançar 234",
+    "alias": "dancar234"
+  },
+  "dancesilly3": {
+    "label": "Dançar 233",
+    "alias": "dancar233"
+  },
+  "dancesilly4": {
+    "label": "Dançar 227",
+    "alias": "dancar227",
+    "aliases": [
+      "dancar227",
+      "dancar232"
+    ]
+  },
+  "dancesilly5": {
+    "label": "Dançar 228",
+    "alias": "dancar228"
+  },
+  "dancesilly7": {
+    "label": "Dançar 263",
+    "alias": "dancar263"
+  },
+  "dancesilly8": {
+    "label": "Dançar 251",
+    "alias": "dancar251"
+  },
+  "danceslow": {
+    "label": "Dançar 236",
+    "alias": "dancar236",
+    "aliases": [
+      "dancar236",
+      "dancar322"
+    ]
+  },
+  "danceslow2": {
+    "label": "Dançar 246",
+    "alias": "dancar246"
+  },
+  "danceslow3": {
+    "label": "Dançar 245",
+    "alias": "dancar245"
+  },
+  "danceslow4": {
+    "label": "Dançar 244",
+    "alias": "dancar244"
+  },
+  "danceupper": {
+    "label": "Dançar 240",
+    "alias": "dancar240"
+  },
+  "danceupper2": {
+    "label": "Dançar 239",
+    "alias": "dancar239"
+  },
+  "Dead": {
+    "label": "Morto",
+    "alias": "morto"
+  },
+  "Defaultfemale": {
+    "label": "Padrão Feminino",
+    "alias": "padraofeminino"
+  },
+  "Defaultmale": {
+    "label": "Padrão Masculino",
+    "alias": "padraomasculino"
+  },
+  "Depressed": {
+    "label": "Depressivo",
+    "alias": "depressivo"
+  },
+  "Depressed2": {
+    "label": "Depressivo 2",
+    "alias": "depressivo2"
+  },
+  "Depressed3": {
+    "label": "Depressivo 3",
+    "alias": "depressivo3"
+  },
+  "Depressed4": {
+    "label": "Depressivo 4",
+    "alias": "depressivo4"
+  },
+  "desert": {
+    "label": "Sanduíche de Marshmallow",
+    "alias": "sandmallow"
+  },
+  "dig": {
+    "label": "Cavar",
+    "alias": "cavar"
+  },
+  "dispenser": {
+    "label": "Produzindo",
+    "alias": "produzindo"
+  },
+  "donut": {
+    "label": "Rosquinha",
+    "alias": "rosquinha"
+  },
+  "donut2": {
+    "label": "Donut de Chocolate",
+    "alias": "rosquinha3"
+  },
+  "donut3": {
+    "label": "Donut de Framboesa",
+    "alias": "rosquinha4"
+  },
+  "drink": {
+    "label": "Bebida Genérica",
+    "alias": "isotonico"
+  },
+  "Drunk3": {
+    "label": "Bêbado 5",
+    "alias": "bebado5"
+  },
+  "Drunk4": {
+    "label": "Bêbado 6",
+    "alias": "bebado6"
+  },
+  "Drunk6": {
+    "label": "Bêbado 4",
+    "alias": "bebado4"
+  },
+  "dufbag3": {
+    "label": "Bolsa",
+    "alias": "bolsa"
+  },
+  "Dumb": {
+    "label": "Burro",
+    "alias": "burro"
+  },
+  "eat": {
+    "label": "Hambúrguer",
+    "alias": "hamburger"
+  },
+  "egobar": {
+    "label": "Barrinha",
+    "alias": "comer4",
+    "aliases": [
+      "comer4",
+      "barrinha"
+    ]
+  },
+  "elbow": {
+    "label": "Apoiado No Carro",
+    "alias": "apoiadonocarro"
+  },
+  "Electrocuted": {
+    "label": "Eletrocutado",
+    "alias": "eletrocutado"
+  },
+  "Excited": {
+    "label": "Entusiasmado",
+    "alias": "entusiasmado"
+  },
+  "facepalm": {
+    "label": "WTF 2",
+    "alias": "wtf2"
+  },
+  "facepalm2": {
+    "label": "WTF",
+    "alias": "wtf"
+  },
+  "facepalm3": {
+    "label": "WTF 3",
+    "alias": "wtf3"
+  },
+  "facepalm4": {
+    "label": "WTF 4",
+    "alias": "wtf4"
+  },
+  "fallasleep": {
+    "label": "Dormindo em Pe",
+    "alias": "dormir4",
+    "aliases": [
+      "dormir4",
+      "dempe"
+    ]
+  },
+  "fallover": {
+    "label": "Desmaiando",
+    "alias": "desmaiando"
+  },
+  "fallover2": {
+    "label": "Fim De Jogo",
+    "alias": "fjogo"
+  },
+  "fallover3": {
+    "label": "Fim De Jogo 2",
+    "alias": "fjogo2"
+  },
+  "fallover4": {
+    "label": "Fim De Jogo 3",
+    "alias": "fjogo3"
+  },
+  "fallover5": {
+    "label": "Fim De Jogo 4",
+    "alias": "fjogo4"
+  },
+  "Fat": {
+    "label": "Gordo 2",
+    "alias": "gordo2"
+  },
+  "Fat2": {
+    "label": "Gordo",
+    "alias": "gordo"
+  },
+  "Fat3": {
+    "label": "Gordo 3",
+    "alias": "gordo3"
+  },
+  "Fat4": {
+    "label": "Gordo 4",
+    "alias": "gordo4"
+  },
+  "Femme": {
+    "label": "Feminino",
+    "alias": "feminino"
+  },
+  "Femme2": {
+    "label": "Feminino 2",
+    "alias": "feminino2"
+  },
+  "fightme": {
+    "label": "Aquecimento",
+    "alias": "alongar4",
+    "aliases": [
+      "alongar4",
+      "aquecimento"
+    ]
+  },
+  "fightme2": {
+    "label": "Aquecimento 1",
+    "alias": "alongar",
+    "aliases": [
+      "alongar",
+      "aquecimento1"
+    ]
+  },
+  "filmshocking": {
+    "label": "Gravar",
+    "alias": "gravar"
+  },
+  "finger": {
+    "label": "Dedo",
+    "alias": "dedo"
+  },
+  "finger2": {
+    "label": "Dedo 2",
+    "alias": "dedos",
+    "aliases": [
+      "dedos",
+      "dedo2"
+    ]
+  },
+  "Fire": {
+    "label": "Incêndio",
+    "alias": "incendio"
+  },
+  "Fire2": {
+    "label": "Incêndio 2",
+    "alias": "incendio2"
+  },
+  "Fire3": {
+    "label": "Incêndio 3",
+    "alias": "incendio3"
+  },
+  "fishdance": {
+    "label": "Olha Onda",
+    "alias": "dancar231",
+    "aliases": [
+      "dancar231",
+      "olhaonda"
+    ]
+  },
+  "fishing3": {
+    "label": "Pescar 3",
+    "alias": "pescar2",
+    "aliases": [
+      "pescar2",
+      "pescar3"
+    ]
+  },
+  "Flee": {
+    "label": "Fugir",
+    "alias": "fugir"
+  },
+  "Flee2": {
+    "label": "Fugir 2",
+    "alias": "fugir2"
+  },
+  "Flee3": {
+    "label": "Fugir 3",
+    "alias": "fugir3"
+  },
+  "Flee4": {
+    "label": "Fugir 4",
+    "alias": "fugir4"
+  },
+  "Flee5": {
+    "label": "Fugir 5",
+    "alias": "fugir5"
+  },
+  "flex": {
+    "label": "Fisiculturista",
+    "alias": "fisiculturista"
+  },
+  "flipoff2": {
+    "label": "Foda-se Vocês 2",
+    "alias": "fvoces2",
+    "aliases": [
+      "fvoces2",
+      "fvoces4"
+    ]
+  },
+  "flute": {
+    "label": "Taça",
+    "alias": "taca"
+  },
+  "foldarms": {
+    "label": "Cruzar Braços",
+    "alias": "encostar29"
+  },
+  "followa": {
+    "label": "Pose 351",
+    "alias": "pose351"
+  },
+  "followb": {
+    "label": "Pose 601",
+    "alias": "pose601"
+  },
+  "foodtraya": {
+    "label": "Bandeja De Comida",
+    "alias": "bcomida"
+  },
+  "foodtrayb": {
+    "label": "Bandeja De Comida 6",
+    "alias": "bcomida6"
+  },
+  "foodtrayc": {
+    "label": "Bandeja De Comida 7",
+    "alias": "bcomida7"
+  },
+  "foodtrayd": {
+    "label": "Bandeja De Comida 8",
+    "alias": "bcomida8"
+  },
+  "foodtraye": {
+    "label": "Bandeja De Comida 5",
+    "alias": "bcomida5"
+  },
+  "foodtrayf": {
+    "label": "Bandeja De Comida 2",
+    "alias": "bcomida2"
+  },
+  "foodtrayg": {
+    "label": "Bandeja De Comida 3",
+    "alias": "bcomida3"
+  },
+  "foodtrayh": {
+    "label": "Bandeja De Comida 9",
+    "alias": "bcomida9"
+  },
+  "foodtrayi": {
+    "label": "Bandeja De Comida 4",
+    "alias": "bcomida4"
+  },
+  "foodtrayj": {
+    "label": "Bandeja De Comida 11",
+    "alias": "bcomida11"
+  },
+  "foodtrayk": {
+    "label": "Bandeja De Comida 10",
+    "alias": "bcomida10"
+  },
+  "foodtrayl": {
+    "label": "Bandeja De Comida 12",
+    "alias": "bcomida12"
+  },
+  "foodtraym": {
+    "label": "Bandeja De Comida 13",
+    "alias": "bcomida13"
+  },
+  "foodtrayn": {
+    "label": "Bandeja De Comida 15",
+    "alias": "garcom3",
+    "aliases": [
+      "garcom3",
+      "bcomida15"
+    ]
+  },
+  "foodtrayo": {
+    "label": "Bandeja De Comida 14",
+    "alias": "bcomida14"
+  },
+  "Frustrated": {
+    "label": "Frustrado",
+    "alias": "frustrado"
+  },
+  "ftorch": {
+    "label": "Tocha",
+    "alias": "tocha"
+  },
+  "fuel": {
+    "label": "Combustível",
+    "alias": "combustivel"
+  },
+  "fuel2": {
+    "label": "Galão De Combustível",
+    "alias": "gcombustivel"
+  },
+  "gamer": {
+    "label": "Controle de Videogame",
+    "alias": "cgame"
+  },
+  "gangsign": {
+    "label": "Gang",
+    "alias": "gang"
+  },
+  "gangsign2": {
+    "label": "Gang 2",
+    "alias": "gang2"
+  },
+  "Gangsterb": {
+    "label": "Gangster 2",
+    "alias": "gangster2"
+  },
+  "Gangsterc": {
+    "label": "Gangster 3",
+    "alias": "gangster3"
+  },
+  "Gangsterd": {
+    "label": "Gangster 4",
+    "alias": "gangster4"
+  },
+  "Gangstere": {
+    "label": "Gangster 5",
+    "alias": "gangster5"
+  },
+  "Gangsterf": {
+    "label": "Gangster 6",
+    "alias": "gangster6"
+  },
+  "Gangsterg": {
+    "label": "Gangster 7",
+    "alias": "gangster7"
+  },
+  "Gangsterh": {
+    "label": "Gangster 8",
+    "alias": "gangster8"
+  },
+  "Gangsteri": {
+    "label": "Gangster 9",
+    "alias": "gangster9"
+  },
+  "Gangsterj": {
+    "label": "Gangster 10",
+    "alias": "gangster10"
+  },
+  "Gangsterk": {
+    "label": "Gangster 11",
+    "alias": "gangster11"
+  },
+  "Gangsterl": {
+    "label": "Gangster 12",
+    "alias": "gangster12"
+  },
+  "Gangsterm": {
+    "label": "Gangster 13",
+    "alias": "gangster13"
+  },
+  "Gangstern": {
+    "label": "Gangster 14",
+    "alias": "gangster14"
+  },
+  "garden": {
+    "label": "Jardineiro",
+    "alias": "jardineiro"
+  },
+  "gbag": {
+    "label": "Saco de Lixo",
+    "alias": "slixo"
+  },
+  "gbin": {
+    "label": "Lata de Lixo",
+    "alias": "llixo"
+  },
+  "gbin2": {
+    "label": "Lata De Lixo 2",
+    "alias": "llixo2"
+  },
+  "gbin3": {
+    "label": "Lata De Lixo 3",
+    "alias": "llixo3"
+  },
+  "gbin4": {
+    "label": "Lata De Lixo 4",
+    "alias": "llixo4"
+  },
+  "gbin5": {
+    "label": "Lata De Lixo 5",
+    "alias": "llixo5"
+  },
+  "Generic": {
+    "label": "Genérico",
+    "alias": "generico"
+  },
+  "Generic2": {
+    "label": "Genérico 2",
+    "alias": "generico2"
+  },
+  "gingerbread": {
+    "label": "Biscoito de Gengibre",
+    "alias": "bgengibre"
+  },
+  "give": {
+    "label": "Passar",
+    "alias": "passar"
+  },
+  "give2": {
+    "label": "Passar 2",
+    "alias": "passar2"
+  },
+  "golfswing": {
+    "label": "Balanço De Golfe",
+    "alias": "bgolf"
+  },
+  "Grooving": {
+    "label": "Dançando",
+    "alias": "dancando"
+  },
+  "Grooving2": {
+    "label": "Dançando 2",
+    "alias": "dancando2"
+  },
+  "Grumpy": {
+    "label": "Esforço",
+    "alias": "esforco",
+    "aliases": [
+      "esforco",
+      "malhumorado"
+    ]
+  },
+  "Grumpy2": {
+    "label": "Mal Humorado 1",
+    "alias": "malhumorado1"
+  },
+  "Grumpy3": {
+    "label": "Mal Humorado 2",
+    "alias": "malhumorado2"
+  },
+  "guard": {
+    "label": "Segurança",
+    "alias": "seguranca"
+  },
+  "Guard": {
+    "label": "Guarda",
+    "alias": "guarda"
+  },
+  "guitar": {
+    "label": "Violão",
+    "alias": "violao",
+    "aliases": [
+      "violao",
+      "violao7"
+    ]
+  },
+  "guitar2": {
+    "label": "Violão 2",
+    "alias": "musica5",
+    "aliases": [
+      "musica5",
+      "violao2",
+      "violao8"
+    ]
+  },
+  "guitarcarry": {
+    "label": "Violão 5",
+    "alias": "violao5"
+  },
+  "guitarcarry2": {
+    "label": "Violão 6",
+    "alias": "violao6"
+  },
+  "guitarcarry5": {
+    "label": "Guitarra 10",
+    "alias": "guitarra10"
+  },
+  "guitarcarry6": {
+    "label": "Guitarra 5",
+    "alias": "guitarra5"
+  },
+  "guitarcarry7": {
+    "label": "Guitarra 6",
+    "alias": "guitarra6"
+  },
+  "guitarcarry8": {
+    "label": "Guitarra 4",
+    "alias": "guitarra4"
+  },
+  "guitarcarry9": {
+    "label": "Guitarra 7",
+    "alias": "guitarra7"
+  },
+  "guitarelectric": {
+    "label": "Guitarra",
+    "alias": "guitarra",
+    "aliases": [
+      "guitarra",
+      "guitarra8"
+    ]
+  },
+  "guitarelectric2": {
+    "label": "Guitarra 2",
+    "alias": "guitarra2",
+    "aliases": [
+      "guitarra2",
+      "guitarra9"
+    ]
+  },
+  "guitarsit": {
+    "label": "Violão 3",
+    "alias": "violao3"
+  },
+  "gungirl1": {
+    "label": "Pose 812",
+    "alias": "pose812"
+  },
+  "gympose3": {
+    "label": "Pose 565",
+    "alias": "pose565"
+  },
+  "gympose4": {
+    "label": "Pose 566",
+    "alias": "pose566"
+  },
+  "Handcuffs": {
+    "label": "Algemado",
+    "alias": "algemado"
+  },
+  "handshake": {
+    "label": "Toque de Mão",
+    "alias": "toquedemao",
+    "aliases": [
+      "toquedemao",
+      "amao"
+    ]
+  },
+  "handshake2": {
+    "label": "Toque de Mão 1",
+    "alias": "toquedemao1",
+    "aliases": [
+      "toquedemao1",
+      "amao2"
+    ]
+  },
+  "handsup": {
+    "label": "Rendido",
+    "alias": "rendido"
+  },
+  "handsup2": {
+    "label": "Coagido",
+    "alias": "coagido"
+  },
+  "Happy": {
+    "label": "Feliz",
+    "alias": "feliz"
+  },
+  "headbutt": {
+    "label": "Zidane",
+    "alias": "zidane",
+    "aliases": [
+      "zidane",
+      "cabecada"
+    ]
+  },
+  "headbutted": {
+    "label": "Cabeçada 2",
+    "alias": "cabecada2"
+  },
+  "Heels": {
+    "label": "Salto Alto",
+    "alias": "saltoalto"
+  },
+  "Heels2": {
+    "label": "Salto Alto 2",
+    "alias": "saltoalto2"
+  },
+  "hhands": {
+    "label": "s2",
+    "alias": "s2"
+  },
+  "hiking": {
+    "label": "Mãos Mochila",
+    "alias": "cruzar6",
+    "aliases": [
+      "cruzar6",
+      "maosmochila"
+    ]
+  },
+  "Hiking": {
+    "label": "Caminhada",
+    "alias": "caminhada"
+  },
+  "Hiking2": {
+    "label": "Caminhada 2",
+    "alias": "caminhada2"
+  },
+  "holdfw": {
+    "label": "Fogos",
+    "alias": "fogos",
+    "aliases": [
+      "fogos",
+      "fogos2",
+      "fogos3",
+      "fogos4"
+    ]
+  },
+  "holdme": {
+    "label": "Casal 152",
+    "alias": "casal152",
+    "aliases": [
+      "casal152",
+      "casal168"
+    ]
+  },
+  "holdmeb": {
+    "label": "Casal 153",
+    "alias": "casal153",
+    "aliases": [
+      "casal153",
+      "casal169"
+    ]
+  },
+  "holdmec": {
+    "label": "Casal 154",
+    "alias": "casal154",
+    "aliases": [
+      "casal154",
+      "casal170"
+    ]
+  },
+  "holdmed": {
+    "label": "Casal 155",
+    "alias": "casal155",
+    "aliases": [
+      "casal155",
+      "casal171"
+    ]
+  },
+  "holdmee": {
+    "label": "Casal 156",
+    "alias": "casal156",
+    "aliases": [
+      "casal156",
+      "casal172"
+    ]
+  },
+  "holdmef": {
+    "label": "Casal 157",
+    "alias": "casal157",
+    "aliases": [
+      "casal157",
+      "casal173"
+    ]
+  },
+  "holster": {
+    "label": "Coldre",
+    "alias": "coldre"
+  },
+  "hostage": {
+    "label": "Refém (Sequestrador)"
+  },
+  "hostage2": {
+    "label": "Refém (Vítima)",
+    "alias": "refem"
+  },
+  "hotdog": {
+    "label": "Cachorro Quente 2",
+    "alias": "chquente2"
+  },
+  "hug": {
+    "label": "Abraço",
+    "alias": "beijar",
+    "aliases": [
+      "beijar",
+      "abraco"
+    ]
+  },
+  "hug2": {
+    "label": "Abraço 2",
+    "alias": "abracar2",
+    "aliases": [
+      "abracar2",
+      "abraco2"
+    ]
+  },
+  "hugpose": {
+    "label": "Casal 86",
+    "alias": "casal86"
+  },
+  "hugpose2": {
+    "label": "Casal 85",
+    "alias": "casal85"
+  },
+  "hugr": {
+    "label": "Abraçar 5",
+    "alias": "abracocintura",
+    "aliases": [
+      "abracocintura",
+      "abracocintura2",
+      "abracar5"
+    ]
+  },
+  "hugr2": {
+    "label": "Abraçar 6",
+    "alias": "abracoombro",
+    "aliases": [
+      "abracoombro",
+      "abracoombro2",
+      "abracar6"
+    ]
+  },
+  "hugtip": {
+    "label": "Abraçar 3",
+    "alias": "casal101",
+    "aliases": [
+      "casal101",
+      "abracar3"
+    ]
+  },
+  "hugtip2": {
+    "label": "Abraçar 4",
+    "alias": "casal102",
+    "aliases": [
+      "casal102",
+      "abracar4"
+    ]
+  },
+  "hump": {
+    "label": "Creu",
+    "alias": "sexo7",
+    "aliases": [
+      "sexo7",
+      "sexo23",
+      "creu"
+    ]
+  },
+  "hump2": {
+    "label": "Hump (Urso)"
+  },
+  "hunched": {
+    "label": "Homem Aranha",
+    "alias": "haranha"
+  },
+  "Hurry": {
+    "label": "Apressado 2",
+    "alias": "apressado2"
+  },
+  "Hurry2": {
+    "label": "Apressado",
+    "alias": "apressado"
+  },
+  "Hurry3": {
+    "label": "Apressado 4",
+    "alias": "apressado4"
+  },
+  "Hurry5": {
+    "label": "Apressado 3",
+    "alias": "apressado3"
+  },
+  "icecreama": {
+    "label": "Sorvete de Cereja",
+    "alias": "scereja"
+  },
+  "icecreamb": {
+    "label": "Sorvete de Chocolate",
+    "alias": "schocolate"
+  },
+  "icecreamc": {
+    "label": "Sorvete de Limão",
+    "alias": "slimao"
+  },
+  "icecreamd": {
+    "label": "Sorvete de Pistache",
+    "alias": "spistache"
+  },
+  "icecreame": {
+    "label": "Sorvete de Framboesa",
+    "alias": "sframboesa"
+  },
+  "icecreamf": {
+    "label": "Sorvete de Stracciatella",
+    "alias": "sstracci"
+  },
+  "icecreamg": {
+    "label": "Sorvete de Morango",
+    "alias": "smorango"
+  },
+  "icecreamh": {
+    "label": "Sorvete de Nozes",
+    "alias": "snozes"
+  },
+  "idcardb": {
+    "label": "Identificação 2",
+    "alias": "identificacao2"
+  },
+  "idcardi": {
+    "label": "Identificação 6",
+    "alias": "identificacao6"
+  },
+  "idle": {
+    "label": "Parado",
+    "alias": "parado",
+    "aliases": [
+      "parado",
+      "foto150",
+      "pose675"
+    ]
+  },
+  "idle10": {
+    "label": "Parado 10",
+    "alias": "parado10",
+    "aliases": [
+      "parado10",
+      "foto158",
+      "pose340"
+    ]
+  },
+  "idle11": {
+    "label": "Parado 11",
+    "alias": "parado11",
+    "aliases": [
+      "parado11",
+      "pose683"
+    ]
+  },
+  "idle14": {
+    "label": "Foto 159",
+    "alias": "foto159"
+  },
+  "idle2": {
+    "label": "Parado 2",
+    "alias": "parado2",
+    "aliases": [
+      "parado2",
+      "pose676"
+    ]
+  },
+  "idle3": {
+    "label": "Parado 3",
+    "alias": "parado3",
+    "aliases": [
+      "parado3",
+      "foto151",
+      "pose677"
+    ]
+  },
+  "idle4": {
+    "label": "Parado 4",
+    "alias": "parado4",
+    "aliases": [
+      "parado4",
+      "foto152",
+      "pose678"
+    ]
+  },
+  "idle5": {
+    "label": "Parado 5",
+    "alias": "parado5",
+    "aliases": [
+      "parado5",
+      "foto153",
+      "pose679"
+    ]
+  },
+  "idle6": {
+    "label": "Parado 6",
+    "alias": "parado6",
+    "aliases": [
+      "parado6",
+      "foto154",
+      "pose680"
+    ]
+  },
+  "idle7": {
+    "label": "Parado 7",
+    "alias": "parado7",
+    "aliases": [
+      "parado7",
+      "foto155",
+      "pose681"
+    ]
+  },
+  "idle8": {
+    "label": "Parado 8",
+    "alias": "parado8",
+    "aliases": [
+      "parado8",
+      "foto156",
+      "pose682"
+    ]
+  },
+  "idle9": {
+    "label": "Parado 9",
+    "alias": "parado9",
+    "aliases": [
+      "parado9",
+      "foto157"
+    ]
+  },
+  "idledrunk": {
+    "label": "Meio Bêbado",
+    "alias": "meiobebado"
+  },
+  "idledrunk2": {
+    "label": "Meio Bêbado 1",
+    "alias": "meiobebado1"
+  },
+  "idledrunk3": {
+    "label": "Meio Bêbado 2",
+    "alias": "meiobebado2"
+  },
+  "impatient": {
+    "label": "Impaciente",
+    "alias": "impaciente"
+  },
+  "Injured2": {
+    "label": "Ferido 2",
+    "alias": "ferido2"
+  },
+  "inspect": {
+    "label": "Inspecionar",
+    "alias": "inspecionar"
+  },
+  "Intimidation": {
+    "label": "Intimidador",
+    "alias": "intimidador"
+  },
+  "Intimidation2": {
+    "label": "Policial 4",
+    "alias": "policial4"
+  },
+  "Intimidation3": {
+    "label": "Intimidador 2",
+    "alias": "intimidador2"
+  },
+  "janitor": {
+    "label": "Zelador",
+    "alias": "zelador"
+  },
+  "Janitor2": {
+    "label": "Zelador 2",
+    "alias": "zelador2"
+  },
+  "jazzhands": {
+    "label": "Tcharam",
+    "alias": "tcharam"
+  },
+  "jog": {
+    "label": "Correr",
+    "alias": "correr"
+  },
+  "jog2": {
+    "label": "Correr Mão",
+    "alias": "corrermao"
+  },
+  "jog3": {
+    "label": "Correr Mão 1",
+    "alias": "corrermao1"
+  },
+  "jog4": {
+    "label": "Correr Mão 2",
+    "alias": "corrermao2"
+  },
+  "jog5": {
+    "label": "Correr Mão 3",
+    "alias": "corrermao3"
+  },
+  "Joyful": {
+    "label": "Alegre",
+    "alias": "alegre"
+  },
+  "jumpingjacks": {
+    "label": "Polichinelo",
+    "alias": "alongar8",
+    "aliases": [
+      "alongar8",
+      "polichinelo"
+    ]
+  },
+  "keyfob": {
+    "label": "Chaveiro",
+    "alias": "chaveiro"
+  },
+  "kick": {
+    "label": "Chute",
+    "alias": "chute"
+  },
+  "kick2": {
+    "label": "Chute 2",
+    "alias": "chute2"
+  },
+  "kick3": {
+    "label": "Chute 3"
+  },
+  "kiss3": {
+    "label": "Beijo 3",
+    "alias": "beijo3"
+  },
+  "kiss4": {
+    "label": "Beijo 4",
+    "alias": "beijo4"
+  },
+  "kisscutecheek": {
+    "label": "Beijar 18",
+    "alias": "beijar18"
+  },
+  "kisscutecheek2": {
+    "label": "Beijar 19",
+    "alias": "beijar19"
+  },
+  "kisscutefh": {
+    "label": "Beijar 20",
+    "alias": "beijar20"
+  },
+  "kisscutefh2": {
+    "label": "Beijar 21",
+    "alias": "beijar21"
+  },
+  "kisscuteneck": {
+    "label": "Beijar 16",
+    "alias": "beijar16"
+  },
+  "kisscuteneck2": {
+    "label": "Beijar 17",
+    "alias": "beijar17"
+  },
+  "kneel": {
+    "label": "Ajoelhar (Verificar)",
+    "alias": "verificar3"
+  },
+  "kneel2": {
+    "label": "Procurando",
+    "alias": "procurando"
+  },
+  "kneel3": {
+    "label": "Ajoelhar",
+    "alias": "foto115"
+  },
+  "kneelthot": {
+    "label": "Pose 142",
+    "alias": "pose142"
+  },
+  "knock": {
+    "label": "Bater",
+    "alias": "bater"
+  },
+  "knock2": {
+    "label": "Bater 1",
+    "alias": "bater1"
+  },
+  "knucklecrunch": {
+    "label": "Estralar Dedos",
+    "alias": "estralardedos"
+  },
+  "lapchair": {
+    "label": "Dança no Colo",
+    "alias": "dancar255"
+  },
+  "lapdance": {
+    "label": "Dançar 2",
+    "alias": "dancar2"
+  },
+  "lapdance2": {
+    "label": "Dançar 253",
+    "alias": "dancar253"
+  },
+  "lapdance3": {
+    "label": "Dançar 4",
+    "alias": "dancar4"
+  },
+  "lapdance4": {
+    "label": "Dançar 5",
+    "alias": "dancar5"
+  },
+  "lapdance5": {
+    "label": "Dançar 6",
+    "alias": "dancar6"
+  },
+  "lapdancewith3": {
+    "label": "Dançar 254",
+    "alias": "dancar254"
+  },
+  "lawnchair": {
+    "label": "Cadeira",
+    "alias": "cadeira"
+  },
+  "lawnchair2": {
+    "label": "Cadeira 2",
+    "alias": "cadeira2"
+  },
+  "lawnchair3": {
+    "label": "Cadeira 3",
+    "alias": "cadeira3"
+  },
+  "laydownsexy": {
+    "label": "Deitar Sexy",
+    "alias": "pose147",
+    "aliases": [
+      "pose147",
+      "deitarsexy"
+    ]
+  },
+  "layncry": {
+    "label": "Chorando No Chão",
+    "alias": "chorandonochao"
+  },
+  "layncry2": {
+    "label": "Chorando No Chão 1",
+    "alias": "chorandonochao1",
+    "aliases": [
+      "chorandonochao1",
+      "dormir1"
+    ]
+  },
+  "layncry3": {
+    "label": "Chorando No Chão 2",
+    "alias": "chorandonochao2"
+  },
+  "layncry4": {
+    "label": "Chorando No Chão 3",
+    "alias": "chorandonochao3"
+  },
+  "layncry5": {
+    "label": "Chorando No Chão 4",
+    "alias": "chorandonochao4"
+  },
+  "layncry6": {
+    "label": "Chorando No Chão 5",
+    "alias": "chorandonochao5"
+  },
+  "lean": {
+    "label": "Encostar (Parede)"
+  },
+  "lean2": {
+    "label": "Foto 162",
+    "alias": "foto162",
+    "aliases": [
+      "foto162",
+      "pose341"
+    ]
+  },
+  "lean3": {
+    "label": "Foto 163",
+    "alias": "foto163",
+    "aliases": [
+      "foto163",
+      "pose664"
+    ]
+  },
+  "leanbar4": {
+    "label": "Encostar 16",
+    "alias": "encostar16"
+  },
+  "leanflirt": {
+    "label": "Foto 98",
+    "alias": "foto98"
+  },
+  "leanside2": {
+    "label": "Encostar 11",
+    "alias": "encostar11"
+  },
+  "leanside3": {
+    "label": "Encostar 3",
+    "alias": "encostar3"
+  },
+  "leanside5": {
+    "label": "Mãos na Cintura 13",
+    "alias": "encostar49",
+    "aliases": [
+      "encostar49",
+      "mcintura13"
+    ]
+  },
+  "ledge": {
+    "label": "Naruto",
+    "alias": "naruto"
+  },
+  "lift": {
+    "label": "Carona",
+    "alias": "carona"
+  },
+  "liftme": {
+    "label": "Casal 76",
+    "alias": "casal76"
+  },
+  "liftme2": {
+    "label": "Casal 75",
+    "alias": "casal75"
+  },
+  "liftme3": {
+    "label": "Casal 78",
+    "alias": "casal78"
+  },
+  "liftme4": {
+    "label": "Casal 77",
+    "alias": "casal77"
+  },
+  "liftme5": {
+    "label": "Casal 80",
+    "alias": "casal80"
+  },
+  "liftme6": {
+    "label": "Casal 79",
+    "alias": "casal79"
+  },
+  "lollipop1": {
+    "label": "Pirulito Espiral Vermelho"
+  },
+  "lollipop1b": {
+    "label": "Pirulito Espiral Rosa",
+    "alias": "pirulitor"
+  },
+  "lollipop1c": {
+    "label": "Pirulito Espiral Verde",
+    "alias": "pirulitov"
+  },
+  "lollipop1d": {
+    "label": "Pirulito Espiral Azul",
+    "alias": "pirulitoa"
+  },
+  "lollipop1e": {
+    "label": "Pirulito Espiral Amarelo",
+    "alias": "pirulitoam"
+  },
+  "lollipop1f": {
+    "label": "Pirulito Espiral Roxo",
+    "alias": "pirulitorx"
+  },
+  "lollipop2a": {
+    "label": "Pirulito Giratório Vermelho",
+    "alias": "pirulitov2"
+  },
+  "lollipop2b": {
+    "label": "Pirulito Giratório Amarelo e Rosa",
+    "alias": "pirulitoar"
+  },
+  "lollipop2c": {
+    "label": "Pirulito Giratório Amarelo e Verde",
+    "alias": "pirulitoav"
+  },
+  "lollipop2d": {
+    "label": "Pirulito Giratório Amarelo e Branco",
+    "alias": "pirulitoab"
+  },
+  "lollipop2e": {
+    "label": "Pirulito Giratório Rosa e Branco",
+    "alias": "pirulitorb"
+  },
+  "lollipop3a": {
+    "label": "Pirulito Chupar",
+    "alias": "pirulito"
+  },
+  "lookout": {
+    "label": "Vigiar"
+  },
+  "macaroon": {
+    "label": "Macaron",
+    "alias": "macaron"
+  },
+  "maid": {
+    "label": "Limpar 3",
+    "alias": "limpar3"
+  },
+  "makeitrain": {
+    "label": "Dinheiro",
+    "alias": "dinheiro"
+  },
+  "Maneater": {
+    "label": "Femme Fatale",
+    "alias": "femmefatale"
+  },
+  "map": {
+    "label": "Mapa",
+    "alias": "mapa"
+  },
+  "map2": {
+    "label": "Mapa 2",
+    "alias": "mapa2"
+  },
+  "me": {
+    "label": "Eu",
+    "alias": "eu"
+  },
+  "mechanic": {
+    "label": "Mecânico 3",
+    "alias": "mecanico3"
+  },
+  "mechanic2": {
+    "label": "Mecânico 2",
+    "alias": "mecanico2"
+  },
+  "mechanic4": {
+    "label": "Mecânico 6",
+    "alias": "mecanico6",
+    "aliases": [
+      "mecanico6",
+      "mecanico4"
+    ]
+  },
+  "medbag": {
+    "label": "Bolsa Médica",
+    "alias": "bolsa5",
+    "aliases": [
+      "bolsa5",
+      "bmedica"
+    ]
+  },
+  "medic": {
+    "label": "Médico (Verificar)"
+  },
+  "medic2": {
+    "label": "Médico",
+    "alias": "medico"
+  },
+  "meditate": {
+    "label": "Meditar",
+    "alias": "meditar"
+  },
+  "meditate2": {
+    "label": "Meditar 2",
+    "alias": "meditar2"
+  },
+  "meditate3": {
+    "label": "Meditar 3",
+    "alias": "meditar3"
+  },
+  "megaphone2": {
+    "label": "Megafone 2",
+    "alias": "megafone2"
+  },
+  "metal": {
+    "label": "Metal",
+    "alias": "foto161",
+    "aliases": [
+      "foto161",
+      "pose685"
+    ]
+  },
+  "mindblown": {
+    "label": "Gênio",
+    "alias": "genio"
+  },
+  "mindblown2": {
+    "label": "Gênio 2",
+    "alias": "genio2"
+  },
+  "model": {
+    "label": "Pose 152",
+    "alias": "pose152"
+  },
+  "model2": {
+    "label": "Pose 223",
+    "alias": "pose223"
+  },
+  "model3": {
+    "label": "Pose 817",
+    "alias": "pose817"
+  },
+  "mop": {
+    "label": "Esfregão",
+    "alias": "esfregao"
+  },
+  "mop2": {
+    "label": "Esfregão 2",
+    "alias": "esfregao2"
+  },
+  "Mouthbreather": {
+    "label": "Respirar Pela Boca",
+    "alias": "respirarboca"
+  },
+  "murder1": {
+    "label": "Assassinado",
+    "alias": "assassinado"
+  },
+  "murder2": {
+    "label": "Assassinado 2",
+    "alias": "assassinado2"
+  },
+  "murder3": {
+    "label": "Assassinado 3",
+    "alias": "assassinado3"
+  },
+  "Muscle": {
+    "label": "Musculoso",
+    "alias": "musculoso"
+  },
+  "musician": {
+    "label": "Músico"
+  },
+  "nervous": {
+    "label": "Nervoso 2",
+    "alias": "nervoso2"
+  },
+  "nervous2": {
+    "label": "Nervoso 3",
+    "alias": "nervoso3"
+  },
+  "nervous3": {
+    "label": "Nervoso",
+    "alias": "nervoso"
+  },
+  "Neverblink": {
+    "label": "Sem Piscar",
+    "alias": "sempiscar"
+  },
+  "newsbmic": {
+    "label": "Microfone",
+    "alias": "mic",
+    "aliases": [
+      "mic",
+      "microfone"
+    ]
+  },
+  "newscam": {
+    "label": "Câmera de TV"
+  },
+  "newsmic": {
+    "label": "Microfone 2",
+    "alias": "microfone2"
+  },
+  "newspaper2": {
+    "label": "Jornal 2",
+    "alias": "jornal2"
+  },
+  "newspaper3": {
+    "label": "Jornal 3",
+    "alias": "jornal3"
+  },
+  "nosepick": {
+    "label": "Tirando Meleca",
+    "alias": "tirandomeleca"
+  },
+  "notepad2": {
+    "label": "Anotar 2",
+    "alias": "anotar2"
+  },
+  "Oneeye": {
+    "label": "Um Olho",
+    "alias": "umolho"
+  },
+  "outofbreath": {
+    "label": "Sem Fôlego",
+    "alias": "semfolego"
+  },
+  "papers": {
+    "label": "Papéis",
+    "alias": "papeis"
+  },
+  "Paramedic": {
+    "label": "Paramédico",
+    "alias": "paramedico"
+  },
+  "parkingmeter": {
+    "label": "Parquímetro",
+    "alias": "parquimetro"
+  },
+  "party": {
+    "label": "Festa",
+    "alias": "cerveja",
+    "aliases": [
+      "cerveja",
+      "festa"
+    ]
+  },
+  "passout": {
+    "label": "Caído",
+    "alias": "dormir5",
+    "aliases": [
+      "dormir5",
+      "caido"
+    ]
+  },
+  "passout2": {
+    "label": "Caído 2",
+    "alias": "caido2"
+  },
+  "passout3": {
+    "label": "Caído 3",
+    "alias": "deitar",
+    "aliases": [
+      "deitar",
+      "caido3"
+    ]
+  },
+  "passout4": {
+    "label": "Caído 4",
+    "alias": "caido4"
+  },
+  "passout5": {
+    "label": "Caído 5",
+    "alias": "caido5"
+  },
+  "patrolcar": {
+    "label": "Ronda 4",
+    "alias": "ronda4"
+  },
+  "patrolcarl": {
+    "label": "Patrulha 2",
+    "alias": "patrulha2"
+  },
+  "patrolcarr": {
+    "label": "Patrulha 3",
+    "alias": "patrulha3"
+  },
+  "patrolf1": {
+    "label": "Ronda",
+    "alias": "ronda"
+  },
+  "patrolf2": {
+    "label": "Ronda 2",
+    "alias": "ronda2"
+  },
+  "patrolf3": {
+    "label": "Ronda 3",
+    "alias": "ronda3"
+  },
+  "patrolf4": {
+    "label": "Patrulha",
+    "alias": "patrulha"
+  },
+  "pback": {
+    "label": "Carregar 7",
+    "alias": "pose645",
+    "aliases": [
+      "pose645",
+      "carregar7"
+    ]
+  },
+  "pback2": {
+    "label": "Carregar 8",
+    "alias": "pose646",
+    "aliases": [
+      "pose646",
+      "carregar8"
+    ]
+  },
+  "peace": {
+    "label": "Paz"
+  },
+  "peacef": {
+    "label": "Paz Feminino",
+    "alias": "foto39"
+  },
+  "pee": {
+    "label": "Mijar Homem",
+    "alias": "mijar",
+    "aliases": [
+      "mijar",
+      "mijarh"
+    ]
+  },
+  "pee2": {
+    "label": "Mijar Homem 1 (Masculino)",
+    "alias": "mijarh1"
+  },
+  "peek": {
+    "label": "Olhadinha",
+    "alias": "olhadinha"
+  },
+  "petting": {
+    "label": "Acariciando Pet",
+    "alias": "acariciandopet"
+  },
+  "pho": {
+    "label": "Sopa",
+    "alias": "sopa"
+  },
+  "phone": {
+    "label": "Celular 4",
+    "alias": "celular4"
+  },
+  "phonecall": {
+    "label": "Celular 2",
+    "alias": "celular2"
+  },
+  "phonecall2": {
+    "label": "Celular 3",
+    "alias": "celular3"
+  },
+  "picklock": {
+    "label": "Chave Mestre",
+    "alias": "chavemestre"
+  },
+  "pickup": {
+    "label": "Dropar",
+    "alias": "dropar"
+  },
+  "point": {
+    "label": "Apontar",
+    "alias": "apontar"
+  },
+  "pointdown": {
+    "label": "Apontar Para Baixo",
+    "alias": "apontarbaixo"
+  },
+  "pointright": {
+    "label": "Apontar Direita",
+    "alias": "apontardireita"
+  },
+  "pornmag": {
+    "label": "Revista Pornô",
+    "alias": "rporno"
+  },
+  "pornmag2": {
+    "label": "Revista Porno 2",
+    "alias": "rporno2"
+  },
+  "pornmag3": {
+    "label": "Revista Pornô 3",
+    "alias": "rporno3"
+  },
+  "pornmag4": {
+    "label": "Revista Pornô 4",
+    "alias": "rporno4"
+  },
+  "pornmag5": {
+    "label": "Revista Pornô 5",
+    "alias": "rporno5"
+  },
+  "pornmag6": {
+    "label": "Revista Pornô 6",
+    "alias": "rporno6"
+  },
+  "pornmag7": {
+    "label": "Revista Pornô 7",
+    "alias": "rporno7"
+  },
+  "posecutef": {
+    "label": "Pose 238",
+    "alias": "pose238"
+  },
+  "posecutef2": {
+    "label": "Pose 240",
+    "alias": "pose240",
+    "aliases": [
+      "pose240",
+      "pose242"
+    ]
+  },
+  "posecutef3": {
+    "label": "Pose 243",
+    "alias": "pose243"
+  },
+  "posecutef4": {
+    "label": "Pose 182",
+    "alias": "pose182"
+  },
+  "posecutem": {
+    "label": "Pose 48 (Masculino)",
+    "alias": "pose239"
+  },
+  "Posh": {
+    "label": "Elegante",
+    "alias": "elegante"
+  },
+  "Posh2": {
+    "label": "Elegante 2",
+    "alias": "elegante2"
+  },
+  "potplant": {
+    "label": "Vaso de Planta",
+    "alias": "vplanta"
+  },
+  "potplant2": {
+    "label": "Vaso de Planta 2",
+    "alias": "vplanta2"
+  },
+  "potplant3": {
+    "label": "Vaso de Planta 3",
+    "alias": "vplanta3"
+  },
+  "prone": {
+    "label": "Deitado de Bruços",
+    "alias": "rastejar3"
+  },
+  "propose": {
+    "label": "Pedido",
+    "alias": "pedido"
+  },
+  "prosthigh": {
+    "label": "Fumar 2",
+    "alias": "fumar2"
+  },
+  "prostlow": {
+    "label": "Pensativo",
+    "alias": "pensativo"
+  },
+  "protest": {
+    "label": "Protesto",
+    "alias": "protesto"
+  },
+  "protest2": {
+    "label": "Protesto 2 - Orgulho",
+    "alias": "protesto2"
+  },
+  "protest3": {
+    "label": "Protesto 3 - BLM",
+    "alias": "protesto3"
+  },
+  "puddle": {
+    "label": "Poça"
+  },
+  "puke2": {
+    "label": "Vomitar",
+    "alias": "vomitar"
+  },
+  "puke3": {
+    "label": "Vomitar 2",
+    "alias": "vomitar2"
+  },
+  "puke4": {
+    "label": "Vomitar 3",
+    "alias": "vomitar3"
+  },
+  "pull": {
+    "label": "Puxar",
+    "alias": "puxar"
+  },
+  "pullover": {
+    "label": "Encostar Polícia",
+    "alias": "encostarpolicia"
+  },
+  "pump": {
+    "label": "Abóbora",
+    "alias": "abobora"
+  },
+  "pump2": {
+    "label": "Abóbora 2",
+    "alias": "abobora2"
+  },
+  "pump3": {
+    "label": "Abóbora 3",
+    "alias": "abobora3"
+  },
+  "pump4": {
+    "label": "Abóbora 4",
+    "alias": "abobora4"
+  },
+  "pump5": {
+    "label": "Abóbora 5",
+    "alias": "abobora5"
+  },
+  "punch": {
+    "label": "Soco na Cara",
+    "alias": "scara"
+  },
+  "punched": {
+    "label": "Soco na Cara 2",
+    "alias": "scara2"
+  },
+  "punching": {
+    "label": "Lutinha",
+    "alias": "lutinha"
+  },
+  "push": {
+    "label": "Empurrar Carro",
+    "alias": "empurrarcarro"
+  },
+  "push2": {
+    "label": "Empurrar Carro 2",
+    "alias": "empurrarcarro2"
+  },
+  "Quick": {
+    "label": "corridinha",
+    "alias": "corridinha"
+  },
+  "rabbit": {
+    "label": "Coelho",
+    "alias": "coelho"
+  },
+  "rake": {
+    "label": "Rastelo",
+    "alias": "rastelo"
+  },
+  "rake2": {
+    "label": "Rastelo 2",
+    "alias": "rastelo2"
+  },
+  "rake3": {
+    "label": "Rastelo 3",
+    "alias": "rastelo3"
+  },
+  "rake4": {
+    "label": "Rastelo 4",
+    "alias": "rastelo4"
+  },
+  "record": {
+    "label": "Filmar Chocante"
+  },
+  "register": {
+    "label": "Caixa Registradora",
+    "alias": "registradora"
+  },
+  "relax2": {
+    "label": "Relax 1",
+    "alias": "relax1"
+  },
+  "respect": {
+    "label": "Tamo Junto Homem",
+    "alias": "tmjh"
+  },
+  "respectf": {
+    "label": "Tamo Junto Mulher",
+    "alias": "tmjm"
+  },
+  "rose": {
+    "label": "Rosa",
+    "alias": "rosa"
+  },
+  "rose2": {
+    "label": "Rosa 3",
+    "alias": "rosa3"
+  },
+  "rose3": {
+    "label": "Rosa 2",
+    "alias": "rosa2"
+  },
+  "Runner": {
+    "label": "Corredor",
+    "alias": "corredor"
+  },
+  "Sad": {
+    "label": "Triste",
+    "alias": "triste"
+  },
+  "Sad2": {
+    "label": "Triste 2",
+    "alias": "triste2"
+  },
+  "Sad3": {
+    "label": "Triste 3",
+    "alias": "triste3"
+  },
+  "Sad4": {
+    "label": "Triste 4",
+    "alias": "triste4"
+  },
+  "Sad5": {
+    "label": "Triste 5",
+    "alias": "triste5"
+  },
+  "salsa": {
+    "label": "Dançar 415",
+    "alias": "dancar415"
+  },
+  "salute2": {
+    "label": "Continência 2",
+    "alias": "continencia2"
+  },
+  "salute3": {
+    "label": "Continência 3",
+    "alias": "continencia3"
+  },
+  "sandwich": {
+    "label": "Sanduíche",
+    "alias": "comer5",
+    "aliases": [
+      "comer5",
+      "sanduiche"
+    ]
+  },
+  "Sassy": {
+    "label": "Atrevido",
+    "alias": "atrevido"
+  },
+  "Sassy2": {
+    "label": "Atrevido 2",
+    "alias": "atrevido2"
+  },
+  "scared": {
+    "label": "Assustado",
+    "alias": "assustado"
+  },
+  "scared2": {
+    "label": "Assustado 2",
+    "alias": "preocupado",
+    "aliases": [
+      "preocupado",
+      "assustado2"
+    ]
+  },
+  "screwyou": {
+    "label": "Banana",
+    "alias": "banana"
+  },
+  "sdogbark": {
+    "label": "Latido (Cachorro Pequeno)",
+    "alias": "lcachorropq"
+  },
+  "sdogbb": {
+    "label": "Beisebol (Cachorro Pequeno)",
+    "alias": "bcachorrop"
+  },
+  "sdogburger": {
+    "label": "Hambúrguer (Cachorro Pequeno)",
+    "alias": "chamburger"
+  },
+  "sdogcontroller": {
+    "label": "Controlador (Cachorro Pequeno)",
+    "alias": "ccachorrop"
+  },
+  "sdogdance": {
+    "label": "Dança 2 (Cachorro Pequeno)"
+  },
+  "sdogdance2": {
+    "label": "Dança (Cachorro Pequeno)",
+    "alias": "dancacachorrop"
+  },
+  "sdogdancepridea": {
+    "label": "Dança Orgulho (Cachorro Pequeno)",
+    "alias": "dancaocachorrop"
+  },
+  "sdogdanceprideb": {
+    "label": "Dança Orgulho 2 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop2"
+  },
+  "sdogdancepridec": {
+    "label": "Dança Orgulho 3 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop3"
+  },
+  "sdogdanceprided": {
+    "label": "Dança Orgulho 4 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop4"
+  },
+  "sdogdancepridee": {
+    "label": "Dança Orgulho 5 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop5"
+  },
+  "sdogdancepridef": {
+    "label": "Dança Orgulho 6 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop6"
+  },
+  "sdogdanceprideg": {
+    "label": "Dança Orgulho 7 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop7"
+  },
+  "sdogdanceprideh": {
+    "label": "Dança Orgulho 8 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop8"
+  },
+  "sdogdancepridei": {
+    "label": "Dança Orgulho 9 (Cachorro Pequeno)",
+    "alias": "dancaocachorrop9"
+  },
+  "sdogdolla": {
+    "label": "Notas de Dólar (Cachorro Pequeno)",
+    "alias": "dolarcach"
+  },
+  "sdogdolla2": {
+    "label": "Notas De Dólar Amassadas (Cachorro Pequeno)",
+    "alias": "notasamassadasc"
+  },
+  "sdogdolla3": {
+    "label": "Pilha de Dinheiro (Cachorro Pequeno)",
+    "alias": "pdinheiroc"
+  },
+  "sdogdolla4": {
+    "label": "Bolsa de Dinheiro (Cachorro Pequeno)",
+    "alias": "bdinheiroc"
+  },
+  "sdogggun": {
+    "label": "Arma de Ouro (Cachorro Pequeno)",
+    "alias": "armaouroc"
+  },
+  "sdoggl1": {
+    "label": "Aviador (Cachorro Pequeno)",
+    "alias": "avicachorrop"
+  },
+  "sdoggl2": {
+    "label": "Aviadores Sentados (Cachorro Pequeno)",
+    "alias": "avicachopq"
+  },
+  "sdoggl3": {
+    "label": "Óculos (Cachorro Pequeno)",
+    "alias": "ocachorrop"
+  },
+  "sdoggl4": {
+    "label": "Óculos Sentado (Cachorro Pequeno)",
+    "alias": "osentcachorrop"
+  },
+  "sdoggun2": {
+    "label": "Arma Ouro Sente - se (Cachorro Pequeno)",
+    "alias": "aourocachorrop"
+  },
+  "sdoghat": {
+    "label": "Chapéu 1 (Cachorro Pequeno)",
+    "alias": "chapeuch1"
+  },
+  "sdoghat2": {
+    "label": "Chapéu 2 Sentado (Cachorro Pequeno)",
+    "alias": "chapeuch2"
+  },
+  "sdoghd1": {
+    "label": "Cachorro Quente (Cachorro Pequeno)"
+  },
+  "sdoghd2": {
+    "label": "Cachorro Quente Sentado (Cachorro Pequeno)",
+    "alias": "chsentados"
+  },
+  "sdoghlmt1": {
+    "label": "Capacete (Cachorro Pequeno)",
+    "alias": "ccachorropqn"
+  },
+  "sdoghlmt2": {
+    "label": "Capacete 2 (Cachorro Pequeno)",
+    "alias": "ccachorropqn2"
+  },
+  "sdogitch": {
+    "label": "Coceira (Cachorro Pequeno)",
+    "alias": "coceirachpq"
+  },
+  "sdogmic": {
+    "label": "Microfone (Cachorro Pequeno)",
+    "alias": "microfonep"
+  },
+  "sdogpee": {
+    "label": "Xixi (Cachorro Pequeno)",
+    "alias": "xixipqn"
+  },
+  "sdogpridea": {
+    "label": "Orgulho A (Cachorro Pequeno)",
+    "alias": "oacachorrop"
+  },
+  "sdogprideb": {
+    "label": "Orgulho B (Cachorro Pequeno)",
+    "alias": "obcachorrop"
+  },
+  "sdogpridec": {
+    "label": "Orgulho C (Cachorro Pequeno)",
+    "alias": "occachorrop"
+  },
+  "sdogprided": {
+    "label": "Orgulho D (Cachorro Pequeno)",
+    "alias": "odcachorrop"
+  },
+  "sdogpridee": {
+    "label": "Orgulho E (Cachorro Pequeno)",
+    "alias": "oecachorrop"
+  },
+  "sdogpridef": {
+    "label": "Orgulho G (Cachorro Pequeno)",
+    "alias": "ogcachorrop"
+  },
+  "sdogprideg": {
+    "label": "Orgulho F (Cachorro Pequeno)",
+    "alias": "ofcachorrop"
+  },
+  "sdogprideh": {
+    "label": "Orgulho H (Cachorro Pequeno)",
+    "alias": "ohcachorrop"
+  },
+  "sdogpridei": {
+    "label": "Orgulho I (Cachorro Pequeno)",
+    "alias": "oicachorrop"
+  },
+  "sdogpridesita": {
+    "label": "Orgulho A Sentar (Cachorro Pequeno)",
+    "alias": "oasentarp"
+  },
+  "sdogpridesitb": {
+    "label": "Orgulho B Sentar (Cachorro Pequeno)",
+    "alias": "obsentarp"
+  },
+  "sdogpridesitc": {
+    "label": "Orgulho C Sentar (Cachorro Pequeno)",
+    "alias": "ocsentarp"
+  },
+  "sdogpridesitd": {
+    "label": "Orgulho D Sentar (Cachorro Pequeno)",
+    "alias": "odsentarp"
+  },
+  "sdogpridesite": {
+    "label": "Orgulho E Sentar (Cachorro Pequeno)",
+    "alias": "oesentarp"
+  },
+  "sdogpridesitf": {
+    "label": "Orgulho F Sentar (Cachorro Pequeno)",
+    "alias": "ofsentarp"
+  },
+  "sdogpridesitg": {
+    "label": "Orgulho G Sentar (Cachorro Pequeno)",
+    "alias": "ogsentarp"
+  },
+  "sdogpridesith": {
+    "label": "Orgulho H Sentar (Cachorro Pequeno)",
+    "alias": "ohsentarp"
+  },
+  "sdogpridesiti": {
+    "label": "Orgulho I Sentar (Cachorro Pequeno)",
+    "alias": "oisentarp"
+  },
+  "sdogrose": {
+    "label": "Rosa (Cachorro Pequeno)",
+    "alias": "rosacachorro"
+  },
+  "sdogrose2": {
+    "label": "Rosa Sentado (Cachorro Pequeno)",
+    "alias": "rscachorro"
+  },
+  "sdogshake": {
+    "label": "Sacudir (Cachorro Pequeno)",
+    "alias": "sacodircp"
+  },
+  "sdogsit": {
+    "label": "Sentar (Cachorro Pequeno)",
+    "alias": "scachorrop"
+  },
+  "sdogsteak": {
+    "label": "Bife (Cachorro Pequeno)",
+    "alias": "bifechg"
+  },
+  "sdogsteak2": {
+    "label": "Bife 2 Deitar (Cachorro Pequeno)",
+    "alias": "bifechdeitar"
+  },
+  "sdogstun": {
+    "label": "Arma de Choque (Cachorro Pequeno)",
+    "alias": "achoquecachorrop"
+  },
+  "sdogteddy": {
+    "label": "Ursinho (Cachorro Pequeno)",
+    "alias": "uchpequeno"
+  },
+  "sdogteddy2": {
+    "label": "Ursinho 2 (Cachorro Pequeno)",
+    "alias": "uchpequeno2"
+  },
+  "sdogtennis": {
+    "label": "Bola de Tênis (Cachorro Pequeno)",
+    "alias": "btenischpq"
+  },
+  "sdogtennisr": {
+    "label": "Raquete de Tênis (Cachorro Pequeno)",
+    "alias": "rtcachorro"
+  },
+  "search": {
+    "label": "Revistar 3",
+    "alias": "revistar3"
+  },
+  "search2": {
+    "label": "Titanic",
+    "alias": "titanic"
+  },
+  "sexypose4": {
+    "label": "Sexy Pose 4",
+    "alias": "pose441"
+  },
+  "Shady": {
+    "label": "Suspeito",
+    "alias": "suspeito"
+  },
+  "shaka": {
+    "label": "Hang Loose",
+    "alias": "hangl"
+  },
+  "shaka2": {
+    "label": "Hang Loose 2",
+    "alias": "hang2"
+  },
+  "shakeitoffhuman": {
+    "label": "Limpar 2",
+    "alias": "limpar2"
+  },
+  "shakeoff": {
+    "label": "Bater Poeira",
+    "alias": "baterp"
+  },
+  "shit": {
+    "label": "Cocô",
+    "alias": "coco"
+  },
+  "Shocked": {
+    "label": "Chocado",
+    "alias": "chocado"
+  },
+  "Shocked2": {
+    "label": "Chocado 1",
+    "alias": "chocado1"
+  },
+  "shopbag": {
+    "label": "Bolsa de Shopping",
+    "alias": "sbolsa"
+  },
+  "shopbag2": {
+    "label": "Bolsa de Shopping 2",
+    "alias": "sbolsa2"
+  },
+  "shopbag3": {
+    "label": "Bolsa de Shopping 3",
+    "alias": "sbolsa3"
+  },
+  "shot": {
+    "label": "Baleado",
+    "alias": "ferido",
+    "aliases": [
+      "ferido",
+      "baleado"
+    ]
+  },
+  "showboobs": {
+    "label": "Peitos",
+    "alias": "peitos"
+  },
+  "showboobs2": {
+    "label": "Peitos 2",
+    "alias": "peitos2"
+  },
+  "showerf": {
+    "label": "Banho Mulher",
+    "alias": "bmulher"
+  },
+  "showerf2": {
+    "label": "Banho Mulher 2",
+    "alias": "bmulher2"
+  },
+  "showerf3": {
+    "label": "Banho Mulher 3",
+    "alias": "bmulher3"
+  },
+  "showerm": {
+    "label": "Banho Homem",
+    "alias": "banho",
+    "aliases": [
+      "banho",
+      "bhomem"
+    ]
+  },
+  "showerm2": {
+    "label": "Banho Homem 2",
+    "alias": "bhomem2"
+  },
+  "showerm3": {
+    "label": "Banho Homem 3",
+    "alias": "bhomem3"
+  },
+  "showerm4": {
+    "label": "Banho Homem 4",
+    "alias": "bhomem4"
+  },
+  "shrug2": {
+    "label": "Sei la 1",
+    "alias": "seila1"
+  },
+  "sit": {
+    "label": "Sentar 7",
+    "alias": "sentar7"
+  },
+  "sit2": {
+    "label": "Sentar 1",
+    "alias": "sentar8",
+    "aliases": [
+      "sentar8",
+      "sentar1"
+    ]
+  },
+  "sit4": {
+    "label": "Sentar 59",
+    "alias": "sentar59"
+  },
+  "sit5": {
+    "label": "Sentar 3",
+    "alias": "sentar3"
+  },
+  "sit6": {
+    "label": "Sentar 11",
+    "alias": "sentar11"
+  },
+  "sit7": {
+    "label": "Sentar 6",
+    "alias": "sentar6"
+  },
+  "sit8": {
+    "label": "Sentar 12",
+    "alias": "sentar12"
+  },
+  "sit9": {
+    "label": "Sentar 13",
+    "alias": "sentar13"
+  },
+  "sitchair": {
+    "label": "Sentar 19",
+    "alias": "sentar19"
+  },
+  "sitchair2": {
+    "label": "Sentar 17",
+    "alias": "sentar17"
+  },
+  "sitchair3": {
+    "label": "Sentar 18",
+    "alias": "sentar18"
+  },
+  "sitchair4": {
+    "label": "Sentar 22",
+    "alias": "sentar22",
+    "aliases": [
+      "sentar22",
+      "sentar87"
+    ]
+  },
+  "sitchair5": {
+    "label": "Sentar 20",
+    "alias": "sentar20"
+  },
+  "sitchair6": {
+    "label": "Sentar 21",
+    "alias": "sentar21"
+  },
+  "sitcute": {
+    "label": "Pose 181",
+    "alias": "pose181"
+  },
+  "sitfu": {
+    "label": "Pose 921",
+    "alias": "pose921"
+  },
+  "sitlean": {
+    "label": "Sentar Muro",
+    "alias": "sentar14"
+  },
+  "sitsad": {
+    "label": "Sentado Triste"
+  },
+  "sitscared": {
+    "label": "Sentar Assustado",
+    "alias": "sentar15"
+  },
+  "sitscared2": {
+    "label": "Sentar Assustado 2"
+  },
+  "sitscared3": {
+    "label": "Sentar Assustado 3",
+    "alias": "sentar16"
+  },
+  "sittv": {
+    "label": "Assistir TV",
+    "alias": "atv"
+  },
+  "sitwithmepose": {
+    "label": "Casal 90",
+    "alias": "casal90"
+  },
+  "sitwithmepose2": {
+    "label": "Casal 89",
+    "alias": "casal89"
+  },
+  "slap": {
+    "label": "Tapa",
+    "alias": "tapa"
+  },
+  "slap2": {
+    "label": "Tapa 2",
+    "alias": "tapa2"
+  },
+  "slapped": {
+    "label": "Estapear",
+    "alias": "estapear"
+  },
+  "slapped2": {
+    "label": "Estapear 2",
+    "alias": "estapear2"
+  },
+  "Sleeping": {
+    "label": "Dormindo",
+    "alias": "dormindo"
+  },
+  "Sleeping3": {
+    "label": "Morto 1",
+    "alias": "morto1"
+  },
+  "slide": {
+    "label": "Comemorar 2",
+    "alias": "escorregar",
+    "aliases": [
+      "escorregar",
+      "comemorar2"
+    ]
+  },
+  "slide2": {
+    "label": "Comemorar 3",
+    "alias": "comemorar3"
+  },
+  "slide3": {
+    "label": "Deslizar 3",
+    "alias": "escorregar2",
+    "aliases": [
+      "escorregar2",
+      "comemorar4"
+    ]
+  },
+  "Slow": {
+    "label": "Lento",
+    "alias": "lento"
+  },
+  "slowclap": {
+    "label": "Palmas",
+    "alias": "palmas"
+  },
+  "slowclap3": {
+    "label": "Palmas 5",
+    "alias": "palmas5"
+  },
+  "slugger": {
+    "label": "Lançador",
+    "alias": "lancador"
+  },
+  "smell": {
+    "label": "Cheiro",
+    "alias": "cheiro"
+  },
+  "smoke": {
+    "label": "Fumar",
+    "alias": "fumar"
+  },
+  "smokeweed": {
+    "label": "Fumar Pot",
+    "alias": "tragar",
+    "aliases": [
+      "tragar",
+      "smokepot"
+    ]
+  },
+  "smokeweed2": {
+    "label": "Fumar 4",
+    "alias": "fumar4"
+  },
+  "sms": {
+    "label": "Celular",
+    "alias": "celular"
+  },
+  "sms2": {
+    "label": "Celular 5",
+    "alias": "celular5"
+  },
+  "sms3": {
+    "label": "Celular 6",
+    "alias": "celular6"
+  },
+  "sms4": {
+    "label": "Celular 7",
+    "alias": "celular7"
+  },
+  "sms5": {
+    "label": "Celular 8",
+    "alias": "celular8"
+  },
+  "Smug": {
+    "label": "Presunçoso",
+    "alias": "presuncoso"
+  },
+  "soda2": {
+    "label": "Beber 10",
+    "alias": "beber10"
+  },
+  "Speculative": {
+    "label": "Especulativo",
+    "alias": "especulativo"
+  },
+  "ssign": {
+    "label": "Placa no Ombro"
+  },
+  "ssign2": {
+    "label": "Placa no Ombro 2"
+  },
+  "ssign3": {
+    "label": "Placa no Ombro 3"
+  },
+  "ssign4": {
+    "label": "Placa 4",
+    "alias": "placa4"
+  },
+  "ssign5": {
+    "label": "Placa 5",
+    "alias": "placa5"
+  },
+  "ssign6": {
+    "label": "Placa 6",
+    "alias": "placa6"
+  },
+  "ssign7": {
+    "label": "Placa 7",
+    "alias": "placa7"
+  },
+  "ssign8": {
+    "label": "Placa 8",
+    "alias": "placa8"
+  },
+  "ssign9": {
+    "label": "Placa 9",
+    "alias": "placa9"
+  },
+  "statue2": {
+    "label": "Estátua 2",
+    "alias": "estatua2"
+  },
+  "statue3": {
+    "label": "Estátua 1",
+    "alias": "estatua3",
+    "aliases": [
+      "estatua3",
+      "estatua1"
+    ]
+  },
+  "stealtv": {
+    "label": "Carregar TV",
+    "alias": "tv",
+    "aliases": [
+      "tv",
+      "ctv"
+    ]
+  },
+  "stickup": {
+    "label": "Arma em Punho",
+    "alias": "armaempunho",
+    "aliases": [
+      "armaempunho",
+      "render"
+    ]
+  },
+  "stickupscared": {
+    "label": "Ser Rendido",
+    "alias": "srendido"
+  },
+  "stink": {
+    "label": "Fedo",
+    "alias": "fedor",
+    "aliases": [
+      "fedor",
+      "fedo"
+    ]
+  },
+  "Stressed": {
+    "label": "Estressado",
+    "alias": "estressado"
+  },
+  "stretch2": {
+    "label": "Alongar 1",
+    "alias": "alongar5",
+    "aliases": [
+      "alongar5",
+      "alongar1"
+    ]
+  },
+  "stretch3": {
+    "label": "Alongar 6",
+    "alias": "alongar6"
+  },
+  "stretch4": {
+    "label": "Alongar 7",
+    "alias": "alongar7"
+  },
+  "stunned": {
+    "label": "Possuído",
+    "alias": "possuido"
+  },
+  "Suggestive": {
+    "label": "Choro",
+    "alias": "choro"
+  },
+  "suitcase": {
+    "label": "Mala",
+    "alias": "mala"
+  },
+  "suitcase2": {
+    "label": "Mala 2",
+    "alias": "mala2"
+  },
+  "Sulking": {
+    "label": "Mal Humor",
+    "alias": "malhumor"
+  },
+  "sunbathe4": {
+    "label": "Deitar 3",
+    "alias": "deitar3"
+  },
+  "sunbathe5": {
+    "label": "Deitar 5",
+    "alias": "deitar5"
+  },
+  "superhero": {
+    "label": "Herói 1",
+    "alias": "heroi1"
+  },
+  "superhero2": {
+    "label": "Herói",
+    "alias": "heroi"
+  },
+  "surrender": {
+    "label": "Render-se"
+  },
+  "surrender2": {
+    "label": "Rendido 2",
+    "alias": "rendido2"
+  },
+  "surrender3": {
+    "label": "Rendido 3",
+    "alias": "rendido3"
+  },
+  "surrender4": {
+    "label": "Rendido 4",
+    "alias": "rendido4"
+  },
+  "surrender5": {
+    "label": "Rendido 5",
+    "alias": "rendido5"
+  },
+  "surrender6": {
+    "label": "Rendido 6",
+    "alias": "rendido6"
+  },
+  "Swagger": {
+    "label": "Estiloso",
+    "alias": "estiloso"
+  },
+  "Swagger2": {
+    "label": "Estiloso 2",
+    "alias": "estiloso2"
+  },
+  "taco": {
+    "label": "Taco",
+    "alias": "comer6"
+  },
+  "tag": {
+    "label": "Spray de Tinta",
+    "alias": "stinta"
+  },
+  "tag2": {
+    "label": "Spray de Tinta 2",
+    "alias": "stinta2"
+  },
+  "tag3": {
+    "label": "Pixar",
+    "alias": "pixar"
+  },
+  "tag4": {
+    "label": "pixar 2",
+    "alias": "pixar2"
+  },
+  "tag5": {
+    "label": "Pixar 3",
+    "alias": "pixar3"
+  },
+  "tag6": {
+    "label": "Pixar 4",
+    "alias": "pixar4"
+  },
+  "teddy": {
+    "label": "Ursinho",
+    "alias": "ursinho"
+  },
+  "tennisplay": {
+    "label": "Jogar Tênis",
+    "alias": "jtennis"
+  },
+  "texting": {
+    "label": "Mensagem",
+    "alias": "mensagem"
+  },
+  "think": {
+    "label": "Pensar",
+    "alias": "foto168",
+    "aliases": [
+      "foto168",
+      "pose666",
+      "pensar"
+    ]
+  },
+  "think2": {
+    "label": "Pensar 2",
+    "alias": "foto169",
+    "aliases": [
+      "foto169",
+      "pensar2"
+    ]
+  },
+  "think3": {
+    "label": "Pensar 3",
+    "alias": "foto170",
+    "aliases": [
+      "foto170",
+      "pose667",
+      "pensar3"
+    ]
+  },
+  "think4": {
+    "label": "Pensar 4",
+    "alias": "foto95",
+    "aliases": [
+      "foto95",
+      "pensar4"
+    ]
+  },
+  "think5": {
+    "label": "Pensar 5",
+    "alias": "foto171",
+    "aliases": [
+      "foto171",
+      "pose668",
+      "pensar5"
+    ]
+  },
+  "threaten": {
+    "label": "Ameaçar3",
+    "alias": "ameacar3"
+  },
+  "thumbsup": {
+    "label": "Joia 3",
+    "alias": "joia3"
+  },
+  "thumbsup2": {
+    "label": "Joia 2",
+    "alias": "joia2"
+  },
+  "thumbsup3": {
+    "label": "Joia",
+    "alias": "joia"
+  },
+  "tighten": {
+    "label": "Tigten (Yoga)"
+  },
+  "tire": {
+    "label": "Pneu",
+    "alias": "pneu"
+  },
+  "Toolbelt": {
+    "label": "Cinturão",
+    "alias": "cinturao"
+  },
+  "Toolbelt2": {
+    "label": "Cinturão 2",
+    "alias": "cinturao2"
+  },
+  "toolbox": {
+    "label": "Caixa de Ferramentas",
+    "alias": "cferramentas"
+  },
+  "toolbox2": {
+    "label": "Caixa de Ferramentas 2",
+    "alias": "cferramentas2"
+  },
+  "toolbox3": {
+    "label": "Caixa de Ferramentas 3",
+    "alias": "cferramentas3"
+  },
+  "toolbox4": {
+    "label": "Caixa de Ferramentas 4",
+    "alias": "cferramentas4"
+  },
+  "Tough": {
+    "label": "Durão",
+    "alias": "durao"
+  },
+  "Tough2": {
+    "label": "Durão 2",
+    "alias": "durao2"
+  },
+  "tpose": {
+    "label": "Revistar 2",
+    "alias": "revistar2"
+  },
+  "tpose2": {
+    "label": "Titanic 2",
+    "alias": "titanic2"
+  },
+  "Tracey": {
+    "label": "Tracy",
+    "alias": "tracy"
+  },
+  "Trash": {
+    "label": "Lixo",
+    "alias": "lixo"
+  },
+  "twerk": {
+    "label": "Rebolar",
+    "alias": "rebolar",
+    "aliases": [
+      "rebolar",
+      "rebola2"
+    ]
+  },
+  "type2": {
+    "label": "Digitar 2",
+    "alias": "digitar",
+    "aliases": [
+      "digitar",
+      "digitar2"
+    ]
+  },
+  "type3": {
+    "label": "Digitar 3",
+    "alias": "digitar3"
+  },
+  "type4": {
+    "label": "Digitar 4",
+    "alias": "digitar4"
+  },
+  "umbrella": {
+    "label": "Guarda - Chuva",
+    "alias": "chuva",
+    "aliases": [
+      "chuva",
+      "gchuva"
+    ]
+  },
+  "valet": {
+    "label": "Mãos",
+    "alias": "maos"
+  },
+  "valet2": {
+    "label": "Mãos 2",
+    "alias": "maos2"
+  },
+  "valet3": {
+    "label": "Mãos 3",
+    "alias": "cruzar7",
+    "aliases": [
+      "cruzar7",
+      "maos3"
+    ]
+  },
+  "Veryslow": {
+    "label": "Muito Lento",
+    "alias": "muitolento"
+  },
+  "vest": {
+    "label": "Beca1",
+    "alias": "beca1"
+  },
+  "vest3": {
+    "label": "Beca2",
+    "alias": "beca2"
+  },
+  "vest4": {
+    "label": "Beca 3",
+    "alias": "beca3"
+  },
+  "vest5": {
+    "label": "Beca 4",
+    "alias": "beca4"
+  },
+  "vest6": {
+    "label": "Beca 5",
+    "alias": "beca5"
+  },
+  "wait": {
+    "label": "Mãos na Cintura",
+    "alias": "esperar",
+    "aliases": [
+      "esperar",
+      "pose335",
+      "mcintura"
+    ]
+  },
+  "wait10": {
+    "label": "Mãos na Cintura 2",
+    "alias": "esperar4",
+    "aliases": [
+      "esperar4",
+      "foto145",
+      "pose337",
+      "mcintura2"
+    ]
+  },
+  "wait11": {
+    "label": "Mãos na Cintura 3",
+    "alias": "esperar5",
+    "aliases": [
+      "esperar5",
+      "foto146",
+      "pose338",
+      "mcintura3"
+    ]
+  },
+  "wait12": {
+    "label": "Mãos na Cintura 4",
+    "alias": "mcintura4"
+  },
+  "wait13": {
+    "label": "Mãos na Cintura 5",
+    "alias": "foto123",
+    "aliases": [
+      "foto123",
+      "mcintura5"
+    ]
+  },
+  "wait2": {
+    "label": "Mãos na Cintura 6",
+    "alias": "mcintura6"
+  },
+  "wait3": {
+    "label": "Mãos na Cintura 7",
+    "alias": "mcintura7"
+  },
+  "wait4": {
+    "label": "Mãos na Cintura 8",
+    "alias": "mcintura8"
+  },
+  "wait5": {
+    "label": "Mãos na Cintura 9",
+    "alias": "mcintura9"
+  },
+  "wait6": {
+    "label": "Mãos na Cintura 10",
+    "alias": "mcintura10"
+  },
+  "wait7": {
+    "label": "Mãos na Cintura 11",
+    "alias": "esperar2",
+    "aliases": [
+      "esperar2",
+      "pose336",
+      "mcintura11"
+    ]
+  },
+  "wait8": {
+    "label": "Mãos na Cintura 12",
+    "alias": "foto12",
+    "aliases": [
+      "foto12",
+      "esperar3",
+      "foto144",
+      "mcintura12"
+    ]
+  },
+  "wait9": {
+    "label": "Encostar 13",
+    "alias": "encostar13"
+  },
+  "wank": {
+    "label": "Bronha",
+    "alias": "bronha"
+  },
+  "wank2": {
+    "label": "Bronha 2",
+    "alias": "bronha2"
+  },
+  "wank3": {
+    "label": "Bronha 3",
+    "alias": "bronha3"
+  },
+  "wank4": {
+    "label": "Bronha 4",
+    "alias": "bronha4"
+  },
+  "wank5": {
+    "label": "Bronha 5",
+    "alias": "bronha5"
+  },
+  "warmth": {
+    "label": "Cordial",
+    "alias": "cordial"
+  },
+  "watchstripper": {
+    "label": "Assistir Show",
+    "alias": "swatch",
+    "aliases": [
+      "swatch",
+      "assistirshow"
+    ]
+  },
+  "watchstripper2": {
+    "label": "Assistindo Dançarinas",
+    "alias": "adancarinas"
+  },
+  "wave": {
+    "label": "Aceno",
+    "alias": "aceno"
+  },
+  "wave2": {
+    "label": "Aceno 2",
+    "alias": "acenar4",
+    "aliases": [
+      "acenar4",
+      "aceno2"
+    ]
+  },
+  "wave3": {
+    "label": "Aceno 3",
+    "alias": "acenar2",
+    "aliases": [
+      "acenar2",
+      "aceno3"
+    ]
+  },
+  "wave7": {
+    "label": "Aceno 7",
+    "alias": "acenar6",
+    "aliases": [
+      "acenar6",
+      "aceno7"
+    ]
+  },
+  "wave8": {
+    "label": "Aceno 8",
+    "alias": "acenar3",
+    "aliases": [
+      "acenar3",
+      "aceno8"
+    ]
+  },
+  "wave9": {
+    "label": "Aceno 9",
+    "alias": "aceno9"
+  },
+  "weedbrick": {
+    "label": "Tablete de Maconha",
+    "alias": "tmaconha"
+  },
+  "weedbrick2": {
+    "label": "Tablete Grande de Maconha",
+    "alias": "tgmaconha"
+  },
+  "weedbucket": {
+    "label": "Balde de Maconha",
+    "alias": "bmaconha"
+  },
+  "weights": {
+    "label": "Musculação",
+    "alias": "malhar",
+    "aliases": [
+      "malhar",
+      "musculacao"
+    ]
+  },
+  "weights2": {
+    "label": "Musculação 2",
+    "alias": "musculacao2"
+  },
+  "Weird": {
+    "label": "Esquisito",
+    "alias": "esquisito"
+  },
+  "Weird2": {
+    "label": "Esquisito 2",
+    "alias": "esquisito2"
+  },
+  "weld": {
+    "label": "Soldar",
+    "alias": "consertar"
+  },
+  "whiskey": {
+    "label": "Whisky",
+    "alias": "whisky"
+  },
+  "whiskeyb": {
+    "label": "Whisky 3",
+    "alias": "whisky3"
+  },
+  "whiskeyb2": {
+    "label": "Whisky 4",
+    "alias": "whisky4"
+  },
+  "whiskeyb3": {
+    "label": "Whisky 2",
+    "alias": "whisky2"
+  },
+  "whistle": {
+    "label": "Assovio",
+    "alias": "taxi",
+    "aliases": [
+      "taxi",
+      "assovio"
+    ]
+  },
+  "whistle2": {
+    "label": "Assovio 2",
+    "alias": "assovio2"
+  },
+  "Wide": {
+    "label": "Largo",
+    "alias": "largo"
+  },
+  "windowshop": {
+    "label": "Maçarico",
+    "alias": "macarico"
+  },
+  "wine": {
+    "label": "Vinho",
+    "alias": "vinho"
+  },
+  "wine2": {
+    "label": "Vinho 3",
+    "alias": "vinho3"
+  },
+  "wine3": {
+    "label": "vinho 2",
+    "alias": "vinho2"
+  },
+  "xmasmug": {
+    "label": "Caneca de Natal - Chá",
+    "alias": "cnatal"
+  },
+  "xmasmug2": {
+    "label": "Caneca de Natal - Café",
+    "alias": "cfnatal"
+  },
+  "xmaswine": {
+    "label": "Vinho Quente de Natal",
+    "alias": "vnatal"
+  },
+  "zombieagony": {
+    "label": "Agonia Zumbi",
+    "alias": "azumbi"
+  },
+  "zombiecrawl": {
+    "label": "Rastejar Zumbi",
+    "alias": "rastejarz"
+  },
+  "zombiescream": {
+    "label": "Grito Zumbi",
+    "alias": "gzumbi"
+  },
+  "zombiewalk": {
+    "label": "Caminhada Zumbi",
+    "alias": "czumbi"
+  },
+  "zombiewalk2": {
+    "label": "Caminhada Zumbi 2",
+    "alias": "czumbi2"
+  }
+}

@@ -8,6 +8,16 @@ local isOpen = false
 local catalogSent = false
 local currentMood
 
+---@return string?
+function GetCurrentMood()
+    return currentMood
+end
+
+---@param name string?
+function SetCurrentMood(name)
+    currentMood = name
+end
+
 local accentColor = GetConvar('mri:color', '#00E699')
 local backgroundColor = GetConvar('mri:backgroundColor', '')
 local oxLibUiConfig
@@ -64,8 +74,38 @@ local function pushRecent(name)
     return out
 end
 
+local incompatibleModel
+local incompatibleList = {}
+
+---Emotes de animal que o modelo atual do jogador nao consegue tocar.
+---@return string[]
+local function incompatibleEmotes()
+    local model = GetEntityModel(PlayerPedId())
+    if model == incompatibleModel then return incompatibleList end
+
+    local list = {}
+    for name, entry in pairs(CatalogEntries) do
+        if entry.emoteType == 'AnimalEmotes' and not exports[ENGINE]:IsAnimalEmoteCompatible(model, name) then
+            list[#list + 1] = name
+        end
+    end
+
+    incompatibleModel, incompatibleList = model, list
+    return list
+end
+
+---Diz se o modelo atual do jogador consegue tocar o emote.
+---@param name string
+---@return boolean
+function IsEmoteCompatible(name)
+    local entry = CatalogEntries[name]
+    if not entry or entry.emoteType ~= 'AnimalEmotes' then return true end
+    return exports[ENGINE]:IsAnimalEmoteCompatible(GetEntityModel(PlayerPedId()), name) and true or false
+end
+
 local function buildPayload()
     local payload = {
+        incompatible = incompatibleEmotes(),
         locale = GetConvar('ox:locale', 'pt-br'),
         favorites = readList(KVP_FAVORITES),
         recent = readList(KVP_RECENT),
@@ -85,13 +125,18 @@ local function buildPayload()
     return payload
 end
 
+local LOOK_CONTROLS = { 1, 2 }
+local GRAB_BUTTON = 24
+local GRAB_MIN_MS = 150
+
 local BLOCKED_CONTROLS = {
-    1, 2, 14, 15, 16, 17, 24, 25, 37, 44, 0, 140, 141, 142, 143, 172, 173, 174, 175,
+    14, 15, 16, 17, 24, 25, 37, 44, 0, 140, 141, 142, 143, 172, 173, 174, 175,
     18, 176, 191, 199, 200, 201, 241, 242, 245, 257, 263, 322,
     10, 11, 23, 177, 194, 202, 212, 213,
 }
 
 local isTyping = false
+local isGrabbing = false
 
 local function blockControlsWhileOpen()
     CreateThread(function()
@@ -101,6 +146,11 @@ local function blockControlsWhileOpen()
             else
                 for i = 1, #BLOCKED_CONTROLS do
                     DisableControlAction(0, BLOCKED_CONTROLS[i], true)
+                end
+                if not isGrabbing then
+                    for i = 1, #LOOK_CONTROLS do
+                        DisableControlAction(0, LOOK_CONTROLS[i], true)
+                    end
                 end
                 DisablePlayerFiring(PlayerId(), true)
             end
@@ -113,6 +163,24 @@ end
 local function setTyping(typing)
     isTyping = typing
     SetNuiFocusKeepInput(not typing)
+end
+
+local function grabCamera()
+    if isGrabbing or not isOpen then return end
+    isGrabbing = true
+    SetNuiFocus(false, false)
+
+    CreateThread(function()
+        local started = GetGameTimer()
+        while isOpen and (IsDisabledControlPressed(0, GRAB_BUTTON) or GetGameTimer() - started < GRAB_MIN_MS) do
+            Wait(0)
+        end
+        isGrabbing = false
+        if isOpen then
+            SetNuiFocus(true, true)
+            setTyping(false)
+        end
+    end)
 end
 
 local CLOSE_GUARD_CONTROLS = { 177, 194, 199, 200, 202, 322 }
@@ -142,7 +210,7 @@ local function closeMenu()
 end
 
 local function openMenu()
-    if isOpen then return end
+    if isOpen or IsEmoteLimited() then return end
 
     if not AwaitCatalog() then
         lib.notify({ description = locale('catalog_loading'), type = 'error' })
@@ -170,7 +238,7 @@ RegisterNUICallback('close', function(_, cb)
 end)
 
 RegisterNUICallback('play', function(data, cb)
-    if type(data) ~= 'table' or type(data.name) ~= 'string' then return cb(false) end
+    if type(data) ~= 'table' or type(data.name) ~= 'string' or IsEmoteLimited() then return cb(false) end
 
     local category = CatalogCategory[data.name]
     if not category then return cb(false) end
@@ -212,10 +280,8 @@ RegisterNUICallback('typing', function(data, cb)
     cb(true)
 end)
 
-RegisterNUICallback('camera', function(data, cb)
-    if isOpen and type(data) == 'table' then
-        RotateGameplayCamera(tonumber(data.dx) or 0, tonumber(data.dy) or 0)
-    end
+RegisterNUICallback('grabCamera', function(_, cb)
+    grabCamera()
     cb(true)
 end)
 
@@ -226,6 +292,7 @@ end)
 
 RegisterNUICallback('getState', function(_, cb)
     cb({
+        incompatible = incompatibleEmotes(),
         walk = exports[ENGINE]:getWalkstyle(),
         mood = currentMood,
         current = exports[ENGINE]:IsPlayerInAnim(),
