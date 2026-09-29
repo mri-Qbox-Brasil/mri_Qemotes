@@ -228,9 +228,9 @@ local function toggleMenu()
     if isOpen then closeMenu() else openMenu() end
 end
 
-RegisterCommand('mriemotes', toggleMenu, false)
+RegisterCommand('mri_emotes', toggleMenu, false)
 RegisterCommand('em', toggleMenu, false)
-RegisterKeyMapping('mriemotes', locale('keybind_menu'), 'keyboard', 'F5')
+RegisterKeyMapping('mri_emotes', locale('keybind_menu'), 'keyboard', 'F5')
 
 RegisterNUICallback('close', function(_, cb)
     closeMenu()

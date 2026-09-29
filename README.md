@@ -125,8 +125,8 @@ Quais emotes aparecem, permissões por categoria e o catálogo em si são config
 
 | Comando | Permissão | Descrição |
 |---|---|---|
-| `/mriemotes` | todos | Abre ou fecha o menu. É o comando ligado ao F5 |
-| `/em` | todos | Atalho para `/mriemotes` |
+| `/mri_emotes` | todos | Abre ou fecha o menu. É o comando ligado ao F5 |
+| `/em` | todos | Atalho para `/mri_emotes` |
 
 ---
 
