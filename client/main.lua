@@ -3,6 +3,8 @@ local KVP_FAVORITES = 'mri_qemotes:favorites'
 local KVP_RECENT = 'mri_qemotes:recent'
 local MAX_FAVORITES = 200
 local MAX_RECENT = 24
+local SOUNDSET = 'HUD_FRONTEND_DEFAULT_SOUNDSET'
+local UI_SOUNDS = { NAV_UP_DOWN = true, SELECT = true, BACK = true, ERROR = true }
 
 local isOpen = false
 local catalogSent = false
@@ -206,6 +208,7 @@ local function closeMenu()
     SetNuiFocusKeepInput(false)
     SetNuiFocus(false, false)
     HidePreview()
+    PlaySoundFrontend(-1, 'QUIT', SOUNDSET, true)
     SendNUIMessage({ action = 'setVisible', visible = false })
 end
 
@@ -279,6 +282,12 @@ end)
 
 RegisterNUICallback('typing', function(data, cb)
     if isOpen then setTyping(type(data) == 'table' and data.typing == true) end
+    cb(true)
+end)
+
+RegisterNUICallback('sound', function(data, cb)
+    local name = type(data) == 'table' and data.name
+    if isOpen and UI_SOUNDS[name] then PlaySoundFrontend(-1, name, SOUNDSET, true) end
     cb(true)
 end)
 
