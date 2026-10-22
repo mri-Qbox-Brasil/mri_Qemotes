@@ -3028,7 +3028,7 @@ return {
         ['armad2'] = { 'anim@arena@celeb@podium@no_prop@', 'finger_guns_b_1st', 'Arma de Dedo 2' },
         ['amaoescondida'] = { 'fin_a_int-3', 'player_one_dual-3', 'Arma De Mão Escondida', AnimationOptions = { EmoteLoop = true, EmoteMoving = true } },
         ['coceira'] = { 'anim@heists@team_respawn@respawn_01', 'heist_spawn_01_ped_d', 'Coceira' },
-        ['coracao'] = { 'heart@hands1', 'base', 'Coração', AnimationOptions = { EmoteLoop = true, EmoteMoving = true } },
+        ['coracao'] = { 'misssnowie@hearthands', 'base', 'Coração', AnimationOptions = { EmoteLoop = true, EmoteMoving = true } },
         ['coracao1'] = { 'heart@hands2', 'base', 'Coração 1', AnimationOptions = { EmoteLoop = true, EmoteMoving = true } },
         ['dabb'] = { 'custom@dab', 'dab', 'Dab B' },
         ['dedo3'] = { 'fuckyou@joker', 'fuckyou_clip', 'Dedo 3', AnimationOptions = { EmoteLoop = true, EmoteMoving = true } },

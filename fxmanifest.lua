@@ -4,7 +4,7 @@ game 'gta5'
 name 'mri_Qemotes'
 description 'Menu de emotes da MRI Qbox sobre o rpemotes-reborn'
 author 'MRI Qbox Team'
-version '1.5.1'
+version '1.6.0'
 
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
@@ -38,4 +38,5 @@ files {
     'html/**/*',
     'locales/*.json',
     'data/emotes.lua',
+    'data/emotes_import.lua',
 }

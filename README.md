@@ -165,16 +165,26 @@ O `/e`, `/walk` e `/mood` do chat são do rpemotes e só conhecem os nomes dele.
 Tudo é gerado por `tools/emotes-locale.mjs`, que lê a lista legada de comandos, os pares `*_pt-br.lua` do scully e o `AnimationList.lua` do rpemotes:
 
 ```sh
-node tools/emotes-locale.mjs <scully>/data/animations <rpemotes-reborn>/client/AnimationList.lua pt-br --legacy <lista1>/core.lua --legacy <lista2>/core.lua --adult <lista>/main.lua
+node tools/emotes-locale.mjs <scully>/data/animations <rpemotes-reborn>/client/AnimationList.lua pt-br --legacy <lista1>/core.lua --legacy <lista2>/core.lua --adult <lista>/main.lua --native <gta-v-data-dumps>/animDictsCompact.json
 ```
 
 Rode de novo ao atualizar o rpemotes.
 
 ### Emotes que o rpemotes não tem
 
-2.901 emotes das fontes não existem no rpemotes, seja pela animação ou pelo objeto (o sorvete de morango usa a mesma animação do hambúrguer, mas é outro emote): 2.668 do conjunto legado, 32 adultos em dupla e 201 do scully. O gerador os registra no mesmo `data/emotes.lua` como emotes novos, com o nome em português, convertendo objetos, loop, movimento, partículas, cenários e emotes em dupla para o formato do rpemotes. Os 979 arquivos `.ycd` que eles usam (59 MB) ficam em `stream/` e são streamados por este recurso; os demais usam animações nativas do jogo. Objetos customizados (`.ydr`/`.ytyp`) usados por algum emote também vão para `stream/`, e o gerador escreve as linhas `data_file` dos `.ytyp` no fim do `fxmanifest.lua`. Nove comandos legados que só prendem um objeto sem animação não têm equivalente e ficam de fora (`bolsa` a `bolsa4`, `caixa2`, `lixo`, `radio2`, `dildo8`, `surf`).
+2.901 emotes das fontes não existem no rpemotes, seja pela animação ou pelo objeto (o sorvete de morango usa a mesma animação do hambúrguer, mas é outro emote): 2.668 do conjunto legado, 32 adultos em dupla e 201 do scully. O gerador os registra no mesmo `data/emotes.lua` como emotes novos, com o nome em português, convertendo objetos, loop, movimento, partículas, cenários e emotes em dupla para o formato do rpemotes. Os 902 arquivos `.ycd` que eles usam (35 MB) ficam em `stream/` e são streamados por este recurso, menos os que o rpemotes já streama (mesmo nome ou mesmo conteúdo), que o emote usa direto de lá; os demais usam animações nativas do jogo. Com `--native` (o `animDictsCompact.json` do [gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps)), animação que já existe no jogo nunca é streamada, e arquivo com nome de dicionário do jogo mas clipe próprio vai como `mri_<dicionário>`: streamar um arquivo com o nome de um dicionário do jogo substitui o original para todos os scripts do servidor. Objetos customizados (`.ydr`/`.ytyp`) usados por algum emote também vão para `stream/`, e o gerador escreve as linhas `data_file` dos `.ytyp` no fim do `fxmanifest.lua`. Nove comandos legados que só prendem um objeto sem animação não têm equivalente e ficam de fora (`bolsa` a `bolsa4`, `caixa2`, `lixo`, `radio2`, `dildo8`, `surf`).
 
 Os 32 emotes adultos em dupla (`--adult`) viram pares `x1`…`x16` e `x1t`…`x16t` na aba Em dupla, marcados como adultos: `/nearby x1` toca no jogador e pede o `x1t` a quem está mais perto, com o encaixe por osso ou o afastamento que a lista original definia. As 11 cenas de veículo dessa lista não são convertidas.
+
+### Emotes importados de outro rpemotes
+
+`tools/emotes-import.mjs` traz os emotes extras de outra cópia do rpemotes-reborn (o `client/AnimationListCustom.lua` e o `stream/` dela) para `data/emotes_import.lua` e `stream/import/`, registrados no rpemotes do mesmo jeito que o `data/emotes.lua`:
+
+```sh
+node tools/emotes-import.mjs <rpemotes de origem> <rpemotes-reborn da base> <gta-v-data-dumps> <mri_props>
+```
+
+Ele pula o que o rpemotes ou o `data/emotes.lua` já têm (mesmo dicionário, animação e objetos), deixa de fora emote cuja animação ou objeto não existe em lugar nenhum, troca `p_idle`/`p_sit` pelo clipe do jogo quando é esse o erro, acerta a grafia do tipo de cenário, zera posições de objeto em `nil` e descarta opções que o rpemotes não conhece. Nome já usado ganha sufixo (`fumar2b`). Animação do jogo não é copiada; a mesma regra do `--native` vale aqui. Os objetos que não existem no jogo nem no rpemotes vão para o `mri_props` do pacote de addons, com tudo o que o `.ytyp` deles cita. A primeira importação, do pacote do BrunoOlivera07 (Paradise Animations e dpemotes), trouxe 3.963 emotes (3.470 danças), 469 `.ycd` (300 MB) e 106 arquivos de objeto.
 
 As animações vêm do repositório público do scully_emotemenu (GPL-3.0), que as distribui com permissão dos autores. Crédito a: BoringNeptune, BzZzi, MissSnowie, Molllyyy, Qpaccy, Sharror, Steph21, Struggleville e Ultrahacx.
 
@@ -259,10 +269,13 @@ mri_Qemotes/
 ├── server/
 │   └── main.lua          — repassa mudanças de mri:color e mri:backgroundColor
 ├── data/
-│   └── emotes.lua        — apelidos em português e emotes extras, registrados no rpemotes (gerado)
-├── stream/               — .ycd dos emotes extras (gerado)
+│   ├── emotes.lua        — apelidos em português e emotes extras, registrados no rpemotes (gerado)
+│   └── emotes_import.lua: emotes importados de outro rpemotes (gerado)
+├── stream/               — .ycd dos emotes extras (gerado); import/ é do emotes-import.mjs
 ├── tools/
 │   ├── emotes-locale.mjs — gera a tradução, o data/emotes.lua e o stream/
+│   ├── emotes-import.mjs: importa emotes de outro rpemotes (data/emotes_import.lua e stream/import/)
+│   ├── lua.mjs / stream.mjs: leitura de Lua e escolha do que streamar, usados pelos dois
 │   ├── words.pt-br.json  — correções por palavra aplicadas aos rótulos
 │   ├── overrides.pt-br.json — rótulo fixo por emote
 │   ├── legacy-aliases.pt-br.json — comandos legados só de objeto, mapeados à mão

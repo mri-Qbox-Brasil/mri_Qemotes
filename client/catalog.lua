@@ -58,10 +58,12 @@ local function toIndexEntry(entry, translation)
     }
 end
 
-local extraEmotes = lib.load('data.emotes')
+local extraEmotes = { lib.load('data.emotes'), lib.load('data.emotes_import') }
 
 local function registerEmotes()
-    exports[ENGINE]:AddEmotes(extraEmotes)
+    for _, emotes in ipairs(extraEmotes) do
+        exports[ENGINE]:AddEmotes(emotes)
+    end
 end
 
 if GetResourceState(ENGINE) == 'started' then registerEmotes() end
