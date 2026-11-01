@@ -181,10 +181,10 @@ Os 32 emotes adultos em dupla (`--adult`) viram pares `x1`…`x16` e `x1t`…`x1
 `tools/emotes-import.mjs` traz os emotes extras de outra cópia do rpemotes-reborn (o `client/AnimationListCustom.lua` e o `stream/` dela) para `data/emotes_import.lua` e `stream/import/`, registrados no rpemotes do mesmo jeito que o `data/emotes.lua`:
 
 ```sh
-node tools/emotes-import.mjs <rpemotes de origem> <rpemotes-reborn da base> <gta-v-data-dumps> <mri_props>
+node tools/emotes-import.mjs <rpemotes de origem> <rpemotes-reborn da base> <gta-v-data-dumps>
 ```
 
-Ele pula o que o rpemotes ou o `data/emotes.lua` já têm (mesmo dicionário, animação e objetos), deixa de fora emote cuja animação ou objeto não existe em lugar nenhum, troca `p_idle`/`p_sit` pelo clipe do jogo quando é esse o erro, acerta a grafia do tipo de cenário, zera posições de objeto em `nil` e descarta opções que o rpemotes não conhece. Nome já usado ganha sufixo (`fumar2b`). Animação do jogo não é copiada; a mesma regra do `--native` vale aqui. Os objetos que não existem no jogo nem no rpemotes vão para o `mri_props` do pacote de addons, com tudo o que o `.ytyp` deles cita. A primeira importação, do pacote do BrunoOlivera07 (Paradise Animations e dpemotes), trouxe 3.963 emotes (3.470 danças), 469 `.ycd` (300 MB) e 106 arquivos de objeto.
+Ele pula o que o rpemotes ou o `data/emotes.lua` já têm (mesmo dicionário, animação e objetos), deixa de fora emote cuja animação ou objeto não existe em lugar nenhum, troca `p_idle`/`p_sit` pelo clipe do jogo quando é esse o erro, acerta a grafia do tipo de cenário, zera posições de objeto em `nil` e descarta opções que o rpemotes não conhece. Nome já usado ganha sufixo (`fumar2b`). Animação do jogo não é copiada; a mesma regra do `--native` vale aqui. Os objetos que não existem no jogo nem no rpemotes vão para o `stream/` do próprio resource (com o `.ytyp` registrado no `fxmanifest.lua`), com tudo o que o `.ytyp` deles cita. A primeira importação, do pacote do BrunoOlivera07 (Paradise Animations e dpemotes), trouxe 3.963 emotes (3.470 danças), 469 `.ycd` (300 MB) e 106 arquivos de objeto.
 
 As animações vêm do repositório público do scully_emotemenu (GPL-3.0), que as distribui com permissão dos autores. Crédito a: BoringNeptune, BzZzi, MissSnowie, Molllyyy, Qpaccy, Sharror, Steph21, Struggleville e Ultrahacx.
 

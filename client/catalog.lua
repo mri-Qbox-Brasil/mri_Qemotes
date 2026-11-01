@@ -60,7 +60,12 @@ end
 
 local extraEmotes = { lib.load('data.emotes'), lib.load('data.emotes_import') }
 
+local registered = false
+
+-- Both the state check and the start event can fire on join; a second AddEmotes warns once per emote
 local function registerEmotes()
+    if registered then return end
+    registered = true
     for _, emotes in ipairs(extraEmotes) do
         exports[ENGINE]:AddEmotes(emotes)
     end
@@ -70,6 +75,10 @@ if GetResourceState(ENGINE) == 'started' then registerEmotes() end
 
 AddEventHandler('onClientResourceStart', function(resource)
     if resource == ENGINE then registerEmotes() end
+end)
+
+AddEventHandler('onClientResourceStop', function(resource)
+    if resource == ENGINE then registered = false end
 end)
 
 CreateThread(function()

@@ -4,7 +4,7 @@ game 'gta5'
 name 'mri_Qemotes'
 description 'Menu de emotes da MRI Qbox sobre o rpemotes-reborn'
 author 'MRI Qbox Team'
-version '1.6.0'
+version '1.7.0'
 
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
@@ -39,4 +39,8 @@ files {
     'locales/*.json',
     'data/emotes.lua',
     'data/emotes_import.lua',
+    'stream/*.ytyp',
 }
+
+-- Emote props stream from here, so a restart needs nobody in game
+data_file 'DLC_ITYP_REQUEST' 'stream/*.ytyp'
